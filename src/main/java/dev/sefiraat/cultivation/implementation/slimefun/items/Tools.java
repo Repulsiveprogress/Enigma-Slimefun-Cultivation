@@ -39,7 +39,7 @@ public final class Tools {
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 new ItemStack(Material.DIAMOND), new ItemStack(Material.GLASS), null,
-                SlimefunItems.BLISTERING_INGOT, SlimefunItems.CROP_GROWTH_ACCELERATOR, null,
+                SlimefunItems.BLISTERING_INGOT.item(), SlimefunItems.CROP_GROWTH_ACCELERATOR.item(), null,
                 null, null, null
             }
         ).register(addon);

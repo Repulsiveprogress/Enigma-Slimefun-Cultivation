@@ -74,24 +74,24 @@ public class SeedPack extends SlimefunItem {
         protected static final int INCREMENT_SPEED_SLOT = 22;
         protected static final int INCREMENT_STRENGTH_SLOT = 23;
 
-        protected static final ItemStack SET_BACKGROUND_STACK = new CustomItemStack(
+        protected static final ItemStack SET_BACKGROUND_STACK = CustomItemStack.create(
             Material.GREEN_STAINED_GLASS_PANE,
             Theme.PASSIVE.apply("Set seed here")
         );
 
-        protected static final ItemStack PICKUP_BACKGROUND_STACK = new CustomItemStack(
+        protected static final ItemStack PICKUP_BACKGROUND_STACK = CustomItemStack.create(
             Material.GREEN_STAINED_GLASS_PANE,
             Theme.PASSIVE.apply("Retrieve here")
         );
 
-        protected static final ItemStack NO_SEED_SET_STACK = new CustomItemStack(
+        protected static final ItemStack NO_SEED_SET_STACK = CustomItemStack.create(
             Material.ORANGE_STAINED_GLASS_PANE,
             Theme.WARNING.apply("No Seed Set"),
             Theme.PASSIVE.apply("Click the left hand side icon"),
             Theme.PASSIVE.apply("While holding a seed to set pack.")
         );
 
-        protected static final ItemStack EMPTY_SEED_SET = new CustomItemStack(
+        protected static final ItemStack EMPTY_SEED_SET = CustomItemStack.create(
             Material.RED_STAINED_GLASS_PANE,
             Theme.WARNING.apply("Empty Set"),
             Theme.PASSIVE.apply("You have no seeds matching the"),
@@ -277,7 +277,7 @@ public class SeedPack extends SlimefunItem {
         }
         
         private ItemStack getIncrementStack(@Nonnull String name, int value) {
-            return new CustomItemStack(
+            return CustomItemStack.create(
                 Material.YELLOW_STAINED_GLASS_PANE,
                 Theme.CLICK_INFO.apply(name),
                 Theme.CLICK_INFO.asTitle("Left Click", "Increase " + name),

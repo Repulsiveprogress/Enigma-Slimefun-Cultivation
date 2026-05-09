@@ -8,6 +8,7 @@ api-version: '1.21'
 folia-supported: false
 depend:
   - Slimefun
+  - SefiLib
 commands:
   cultivation:
     description: /cultivation

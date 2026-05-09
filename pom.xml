@@ -70,6 +70,10 @@
                             <pattern>io.github.sefiraat.sefilib</pattern>
                             <shadedPattern>io.github.sefiraat.cultivation.sefilib</shadedPattern>
                         </relocation>
+                        <relocation>
+                            <pattern>io.papermc.lib</pattern>
+                            <shadedPattern>dev.sefiraat.cultivation.paperlib</shadedPattern>
+                        </relocation>
                     </relocations>
                     <filters>
                         <filter>
@@ -150,16 +154,16 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.baked-libs</groupId>
+            <groupId>com.github.Slimefun.dough</groupId>
             <artifactId>dough-api</artifactId>
-            <version>1.2.0</version>
+            <version>cb22e71335</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>dev.sefiraat</groupId>
             <artifactId>SefiLib</artifactId>
-            <version>0.2.6</version>
-            <scope>compile</scope>
+            <version>0.3.0-ENIGMA</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Tools etc. -->
@@ -185,6 +189,12 @@
             <groupId>co.aikar</groupId>
             <artifactId>acf-paper</artifactId>
             <version>0.5.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.papermc</groupId>
+            <artifactId>paperlib</artifactId>
+            <version>1.0.8</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

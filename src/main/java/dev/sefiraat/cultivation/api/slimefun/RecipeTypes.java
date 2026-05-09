@@ -9,6 +9,7 @@ import dev.sefiraat.cultivation.implementation.utils.Keys;
 import dev.sefiraat.sefilib.entity.LivingEntityDefinition;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.WordUtils;
 import org.bukkit.Material;
@@ -305,6 +306,14 @@ public final class RecipeTypes {
      * @return A {@link ItemStack[]} used for Slimefun's Recipe registration with the dropFrom item in the middle.
      */
     @Nonnull
+    public static ItemStack[] createBlockDropRecipe(@Nonnull SlimefunItemStack stackToDrop,
+                                                    @Nonnull Set<Material> dropFrom,
+                                                    double dropChance
+    ) {
+        return createBlockDropRecipe(stackToDrop.item(), dropFrom, dropChance);
+    }
+
+    @Nonnull
     public static ItemStack[] createBlockDropRecipe(@Nonnull ItemStack stackToDrop,
                                                     @Nonnull ItemStack dropFrom,
                                                     double dropChance
@@ -348,6 +357,22 @@ public final class RecipeTypes {
      * @return A {@link ItemStack[]} used for Slimefun's Recipe registration, blank.
      */
     @Nonnull
+    public static ItemStack[] createBucketingRecipe(@Nonnull SlimefunItemStack stackToDrop,
+                                                    @Nonnull Material dropFrom,
+                                                    double dropChance
+    ) {
+        return createBucketingRecipe(stackToDrop.item(), Set.of(dropFrom), dropChance);
+    }
+
+    @Nonnull
+    public static ItemStack[] createBucketingRecipe(@Nonnull SlimefunItemStack stackToDrop,
+                                                    @Nonnull Set<Material> dropFrom,
+                                                    double dropChance
+    ) {
+        return createBucketingRecipe(stackToDrop.item(), dropFrom, dropChance);
+    }
+
+    @Nonnull
     public static ItemStack[] createBucketingRecipe(@Nonnull ItemStack stackToDrop,
                                                     @Nonnull Material dropFrom,
                                                     double dropChance
@@ -385,6 +410,22 @@ public final class RecipeTypes {
      * @param dropChance  The chance (0-1) for the drop to occur
      * @return A {@link ItemStack[]} used for Slimefun's Recipe registration with the dropFrom item in the middle.
      */
+    @Nonnull
+    public static ItemStack[] createMobDropRecipe(@Nonnull SlimefunItemStack stackToDrop,
+                                                  @Nonnull LivingEntityDefinition dropFrom,
+                                                  double dropChance
+    ) {
+        return createMobDropRecipe(stackToDrop.item(), Set.of(dropFrom), dropChance);
+    }
+
+    @Nonnull
+    public static ItemStack[] createMobDropRecipe(@Nonnull SlimefunItemStack stackToDrop,
+                                                  @Nonnull Set<LivingEntityDefinition> dropFrom,
+                                                  double dropChance
+    ) {
+        return createMobDropRecipe(stackToDrop.item(), dropFrom, dropChance);
+    }
+
     @Nonnull
     public static ItemStack[] createMobDropRecipe(@Nonnull ItemStack stackToDrop,
                                                   @Nonnull LivingEntityDefinition dropFrom,

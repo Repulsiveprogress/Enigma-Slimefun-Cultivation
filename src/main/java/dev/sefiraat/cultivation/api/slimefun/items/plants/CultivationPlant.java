@@ -1,5 +1,7 @@
 package dev.sefiraat.cultivation.api.slimefun.items.plants;
 
+import dev.sefiraat.cultivation.api.utils.SkinHelper;
+
 import dev.sefiraat.cultivation.Registry;
 import dev.sefiraat.cultivation.api.datatypes.FloraLevelProfileDataType;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
@@ -22,7 +24,6 @@ import dev.sefiraat.sefilib.misc.ParticleUtils;
 import dev.sefiraat.sefilib.string.Theme;
 import dev.sefiraat.sefilib.world.LocationUtils;
 import io.github.bakedlibs.dough.data.persistent.PersistentDataAPI;
-import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -243,7 +244,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
         UUID owner = getOwner(motherLocation);
 
         cloneBlock.setType(Material.PLAYER_HEAD);
-        PlayerHead.setSkin(cloneBlock, theme.getSeed().getPlayerSkin(), false);
+        SkinHelper.setSkinOnBlock(cloneBlock, theme.getSeed().getPlayerSkin(), false);
         cloneBlock.getState().update(true, false);
         BlockStorage.store(cloneBlock, childSeed.getId());
         BlockStorage.addBlockInfo(cloneBlock, Keys.FLORA_GROWTH_STAGE, "0");

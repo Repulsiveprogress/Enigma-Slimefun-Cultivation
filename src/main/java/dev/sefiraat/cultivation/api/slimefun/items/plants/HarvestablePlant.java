@@ -1,5 +1,7 @@
 package dev.sefiraat.cultivation.api.slimefun.items.plants;
 
+import dev.sefiraat.cultivation.api.utils.SkinHelper;
+
 import dev.sefiraat.cultivation.Cultivation;
 import dev.sefiraat.cultivation.api.datatypes.instances.FloraLevelProfile;
 import dev.sefiraat.cultivation.api.interfaces.CultivationHarvestable;
@@ -8,7 +10,6 @@ import dev.sefiraat.cultivation.api.slimefun.plant.PlantTheme;
 import dev.sefiraat.cultivation.implementation.slimefun.tools.HarvestingTool;
 import dev.sefiraat.cultivation.implementation.utils.Keys;
 import io.github.bakedlibs.dough.collections.RandomizedSet;
-import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -52,6 +53,16 @@ public class HarvestablePlant extends CultivationPlant implements CultivationHar
     @Nonnull
     public HarvestablePlant addHarvestingResult(@Nonnull ItemStack harvestStack) {
         return addHarvestingResult(harvestStack, 1);
+    }
+
+    @Nonnull
+    public HarvestablePlant addHarvestingResult(@Nonnull SlimefunItemStack harvestStack) {
+        return addHarvestingResult(harvestStack.item(), 1);
+    }
+
+    @Nonnull
+    public HarvestablePlant addHarvestingResult(@Nonnull SlimefunItemStack harvestStack, int weight) {
+        return addHarvestingResult(harvestStack.item(), weight);
     }
 
     @Nonnull
@@ -106,7 +117,7 @@ public class HarvestablePlant extends CultivationPlant implements CultivationHar
         if (growthStage == 0) {
             PlantTheme theme = growth.getTheme();
             if (theme != null) {
-                PlayerHead.setSkin(block, theme.getSeed().getPlayerSkin(), false);
+                SkinHelper.setSkinOnBlock(block, theme.getSeed().getPlayerSkin(), false);
                 block.getState().update(true, false);
                 growthDisplay(block.getLocation());
             }

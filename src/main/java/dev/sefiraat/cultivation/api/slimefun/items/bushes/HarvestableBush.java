@@ -83,6 +83,16 @@ public class HarvestableBush extends CultivationBush implements CultivationHarve
     }
 
     @Nonnull
+    public HarvestableBush addHarvestingResult(@Nonnull SlimefunItemStack harvestStack) {
+        return addHarvestingResult(harvestStack.item(), 1);
+    }
+
+    @Nonnull
+    public HarvestableBush addHarvestingResult(@Nonnull SlimefunItemStack harvestStack, int weight) {
+        return addHarvestingResult(harvestStack.item(), weight);
+    }
+
+    @Nonnull
     public HarvestableBush addHarvestingResult(@Nonnull ItemStack harvestStack, int weight) {
         this.harvestItems.add(harvestStack, weight);
         return this;

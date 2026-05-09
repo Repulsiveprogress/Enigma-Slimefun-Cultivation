@@ -23,7 +23,7 @@ public final class CultivationGroups {
         Cultivation.getInstance(),
         "Cultivation",
         Keys.newKey("main"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.AZURE_BLUET),
             CultivationThemes.MAIN.color("Cultivation")
         )
@@ -31,7 +31,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup HIDDEN_CONTENT = new DummyItemGroup(
         Keys.newKey("hidden"),
-        new CustomItemStack(
+        CustomItemStack.create(
             Material.BARRIER,
             "Hidden",
             "Items that should not be accessed directly."
@@ -40,7 +40,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup CRAFTING = new DummyItemGroup(
         Keys.newKey("crafting"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.STICK),
             CultivationThemes.MAIN.color("Crafting Items")
         )
@@ -48,7 +48,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup TOOLS = new DummyItemGroup(
         Keys.newKey("tools"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.COMPASS),
             CultivationThemes.MAIN.color("Tools")
         )
@@ -56,7 +56,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup MACHINES = new DummyItemGroup(
         Keys.newKey("machines"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.GLASS),
             CultivationThemes.MAIN.color("Machines")
         )
@@ -64,7 +64,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup PLANTS = new DummyItemGroup(
         Keys.newKey("plants"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.MELON_SEEDS),
             CultivationThemes.MAIN.color("Plants")
         )
@@ -72,7 +72,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup BUSHES = new DummyItemGroup(
         Keys.newKey("bushes"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.SWEET_BERRIES),
             CultivationThemes.MAIN.color("Bushes")
         )
@@ -80,7 +80,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup TREES = new DummyItemGroup(
         Keys.newKey("trees"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.ACACIA_SAPLING),
             CultivationThemes.MAIN.color("Trees")
         )
@@ -88,7 +88,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup PRODUCE = new DummyItemGroup(
         Keys.newKey("produce"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.APPLE),
             CultivationThemes.MAIN.color("Produce")
         )
@@ -96,7 +96,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup BY_PRODUCTS = new DummyItemGroup(
         Keys.newKey("by-products"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.BEETROOT_SEEDS),
             CultivationThemes.MAIN.color("By-Products")
         )
@@ -104,7 +104,7 @@ public final class CultivationGroups {
 
     public static final DummyItemGroup FOODS = new DummyItemGroup(
         Keys.newKey("foods"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.BEETROOT_SOUP),
             CultivationThemes.MAIN.color("Foods")
         )
@@ -112,7 +112,7 @@ public final class CultivationGroups {
 
     public static final PlantCodexFlexGroup PLANT_CODEX = new PlantCodexFlexGroup(
         Keys.newKey("plant_codex"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.BEETROOT_SEEDS),
             CultivationThemes.MAIN.color("Plants Codex")
         )

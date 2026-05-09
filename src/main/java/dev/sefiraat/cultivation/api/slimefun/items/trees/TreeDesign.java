@@ -1,12 +1,13 @@
 package dev.sefiraat.cultivation.api.slimefun.items.trees;
 
+import dev.sefiraat.cultivation.api.utils.SkinHelper;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import dev.sefiraat.cultivation.Cultivation;
-import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Axis;
@@ -153,7 +154,7 @@ public enum TreeDesign {
     ) {
         if (itemStack.getType() == Material.PLAYER_HEAD) {
             block.setType(face != null ? Material.PLAYER_WALL_HEAD : Material.PLAYER_HEAD, true);
-            PlayerHead.setSkin(block, tree.getSkin().getPlayerSkin(), true);
+            SkinHelper.setSkinOnBlock(block, tree.getSkin().getPlayerSkin(), true);
         } else {
             block.setType(itemStack.getType(), true);
             if (Tag.LEAVES.isTagged(itemStack.getType())) {

@@ -26,9 +26,9 @@ public final class Machines {
         CultivationStacks.GARDEN_CLOCHE,
         RecipeType.ENHANCED_CRAFTING_TABLE,
         new ItemStack[]{
-            null, SlimefunItems.HARDENED_GLASS, null,
-            null, SlimefunItems.CROP_GROWTH_ACCELERATOR, null,
-            null, SlimefunItems.GOLD_24K_BLOCK, null
+            null, SlimefunItems.HARDENED_GLASS.item(), null,
+            null, SlimefunItems.CROP_GROWTH_ACCELERATOR.item(), null,
+            null, SlimefunItems.GOLD_24K_BLOCK.item(), null
         }
     );
 
@@ -111,7 +111,7 @@ public final class Machines {
         new ItemStack[]{
             null, new ItemStack(Material.TINTED_GLASS), new ItemStack(Material.CAULDRON),
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.CAMPFIRE), new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.ENHANCED_FURNACE, new ItemStack(Material.DARK_OAK_LOG)
+            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.ENHANCED_FURNACE.item(), new ItemStack(Material.DARK_OAK_LOG)
         },
         DisplayGroupGenerators::generateBoilingCounter
     );
@@ -123,7 +123,7 @@ public final class Machines {
         new ItemStack[]{
             null, new ItemStack(Material.IRON_BLOCK), null,
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.POLISHED_BLACKSTONE), new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CARBONADO_EDGED_FURNACE, new ItemStack(Material.DARK_OAK_LOG)
+            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CARBONADO_EDGED_FURNACE.item(), new ItemStack(Material.DARK_OAK_LOG)
         },
         DisplayGroupGenerators::generateOvenCounter,
         200
@@ -136,7 +136,7 @@ public final class Machines {
         new ItemStack[]{
             null, new ItemStack(Material.TINTED_GLASS), null,
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.CAMPFIRE), new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CARBONADO_EDGED_FURNACE, new ItemStack(Material.DARK_OAK_LOG)
+            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CARBONADO_EDGED_FURNACE.item(), new ItemStack(Material.DARK_OAK_LOG)
         },
         DisplayGroupGenerators::generateFryingCounter,
         100
@@ -149,7 +149,7 @@ public final class Machines {
         new ItemStack[]{
             null, new ItemStack(Material.IRON_BLOCK), null,
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.CHISELED_POLISHED_BLACKSTONE), new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.DARK_OAK_LOG)
+            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.ELECTRIC_MOTOR.item(), new ItemStack(Material.DARK_OAK_LOG)
         },
         DisplayGroupGenerators::generateGrillingCounter,
         150
@@ -162,7 +162,7 @@ public final class Machines {
         new ItemStack[]{
             null, null, null,
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.POLISHED_DIORITE), new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CRAFTING_MOTOR, new ItemStack(Material.DARK_OAK_LOG)
+            new ItemStack(Material.DARK_OAK_LOG), SlimefunItems.CRAFTING_MOTOR.item(), new ItemStack(Material.DARK_OAK_LOG)
         },
         DisplayGroupGenerators::generateFinishingCounter
     );

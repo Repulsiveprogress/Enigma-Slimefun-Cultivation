@@ -22,7 +22,7 @@ public final class Ingredients {
         CultivationStacks.PEANUT_BUTTER,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            Products.PEANUT.getBlended().getItem(), new ItemStack(Material.SUGAR), SlimefunItems.BUTTER,
+            Products.PEANUT.getBlended().getItem(), new ItemStack(Material.SUGAR), SlimefunItems.BUTTER.item(),
             null, null, null,
             null, null, null
         }
@@ -72,7 +72,7 @@ public final class Ingredients {
         CultivationStacks.PIE_CRUST,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            new ItemStack(Material.MILK_BUCKET), Products.EGG.getBlendedItem(), SlimefunItems.WHEAT_FLOUR,
+            new ItemStack(Material.MILK_BUCKET), Products.EGG.getBlendedItem(), SlimefunItems.WHEAT_FLOUR.item(),
             null, null, null,
             null, null, null
         }
@@ -82,7 +82,7 @@ public final class Ingredients {
         CultivationStacks.PASTA,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            SlimefunItems.WHEAT_FLOUR, Products.EGG.getBlendedItem(), null,
+            SlimefunItems.WHEAT_FLOUR.item(), Products.EGG.getBlendedItem(), null,
             null, null, null,
             null, null, null
         }
@@ -92,7 +92,7 @@ public final class Ingredients {
         CultivationStacks.BISCUIT_DOUGH,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            SlimefunItems.WHEAT_FLOUR, new ItemStack(Material.SUGAR), SlimefunItems.BUTTER,
+            SlimefunItems.WHEAT_FLOUR.item(), new ItemStack(Material.SUGAR), SlimefunItems.BUTTER.item(),
             new ItemStack(Material.MILK_BUCKET), null, null,
             null, null, null
         }
@@ -113,7 +113,7 @@ public final class Ingredients {
         RecipeTypes.FINISHING,
         new ItemStack[]{
             Products.BEEF.getGroundItem(), Products.EGG.getBlendedItem(), null,
-            SlimefunItems.WHEAT_FLOUR, SlimefunItems.SALT, null,
+            SlimefunItems.WHEAT_FLOUR.item(), SlimefunItems.SALT.item(), null,
             null, null, null
         }
     ).buildRegister(Cultivation.getInstance());
@@ -124,7 +124,7 @@ public final class Ingredients {
         RecipeTypes.FINISHING,
         new ItemStack[]{
             Products.PORK.getGroundItem(), Products.GARLIC.getGroundItem(), Products.CAYENNE_PEPPER.getGroundItem(),
-            Products.MUSTARD_SEEDS.getGroundItem(), SlimefunItems.SALT, null,
+            Products.MUSTARD_SEEDS.getGroundItem(), SlimefunItems.SALT.item(), null,
             null, null, null
         }
     ).buildRegister(Cultivation.getInstance());
@@ -133,8 +133,8 @@ public final class Ingredients {
         CultivationStacks.DOUGH,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            SlimefunItems.WHEAT_FLOUR, SlimefunItems.WHEAT_FLOUR, new ItemStack(Material.EGG),
-            new ItemStack(Material.WATER_BUCKET), SlimefunItems.SALT, null,
+            SlimefunItems.WHEAT_FLOUR.item(), SlimefunItems.WHEAT_FLOUR.item(), new ItemStack(Material.EGG),
+            new ItemStack(Material.WATER_BUCKET), SlimefunItems.SALT.item(), null,
             null, null, null
         }
     ).buildRegister(Cultivation.getInstance());
@@ -143,7 +143,7 @@ public final class Ingredients {
         CultivationStacks.CREAM_CHEESE,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            new ItemStack(Material.MILK_BUCKET), SlimefunItems.SALT, Products.LEMON.getBlendedItem(),
+            new ItemStack(Material.MILK_BUCKET), SlimefunItems.SALT.item(), Products.LEMON.getBlendedItem(),
             null, null, null,
             null, null, null
         }
@@ -163,7 +163,7 @@ public final class Ingredients {
         CultivationStacks.MUSTARD,
         RecipeTypes.FINISHING,
         new ItemStack[]{
-            Products.MUSTARD_SEEDS.getBlendedItem(), new ItemStack(Material.WATER_BUCKET), SlimefunItems.SALT,
+            Products.MUSTARD_SEEDS.getBlendedItem(), new ItemStack(Material.WATER_BUCKET), SlimefunItems.SALT.item(),
             Products.THYME.getChoppedItem(), Products.TURMERIC.getChoppedItem(), new ItemStack(Material.SUGAR),
             null, null, null
         }

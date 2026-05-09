@@ -1,9 +1,10 @@
 package dev.sefiraat.cultivation.api.slimefun.items.plants;
 
+import dev.sefiraat.cultivation.api.utils.SkinHelper;
+
 import dev.sefiraat.cultivation.api.slimefun.plant.Growth;
 import dev.sefiraat.cultivation.api.slimefun.plant.PlantTheme;
 import dev.sefiraat.cultivation.implementation.utils.Keys;
-import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
@@ -35,7 +36,7 @@ public class NothingPlant extends CultivationPlant {
         if (growthStage == 0) {
             PlantTheme theme = growth.getTheme();
             if (theme != null) {
-                PlayerHead.setSkin(block, theme.getSeed().getPlayerSkin(), false);
+                SkinHelper.setSkinOnBlock(block, theme.getSeed().getPlayerSkin(), false);
                 block.getState().update(true, false);
                 BlockStorage.addBlockInfo(block, Keys.FLORA_GROWTH_STAGE, String.valueOf(growthStage));
                 growthDisplay(block.getLocation());
