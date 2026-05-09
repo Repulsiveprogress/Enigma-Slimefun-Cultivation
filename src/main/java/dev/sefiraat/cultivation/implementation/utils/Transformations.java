@@ -2,7 +2,6 @@ package dev.sefiraat.cultivation.implementation.utils;
 
 import dev.sefiraat.sefilib.misc.RotationFace;
 import dev.sefiraat.sefilib.misc.TransformationBuilder;
-import io.papermc.lib.PaperLib;
 import org.bukkit.util.Transformation;
 import org.joml.Quaternionf;
 
@@ -144,9 +143,8 @@ public enum Transformations {
     }
 
     public Transformation getTransformation(boolean itemDisplay) {
-        // In 1.20+ the y-axis of item displays are rotated by 180°
-        // This corrects the visuals by rotating again
-        if (itemDisplay && PaperLib.getMinecraftVersion() >= 20) {
+        // 1.20+ Y-axis correction for item displays
+        if (itemDisplay) {
             return new Transformation(transformation.getTranslation(),
                     transformation.getLeftRotation(),
                     transformation.getScale(),

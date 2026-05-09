@@ -3,6 +3,7 @@ package dev.sefiraat.cultivation.implementation.slimefun;
 import dev.sefiraat.cultivation.api.utils.CultivationThemes;
 import dev.sefiraat.cultivation.api.utils.Skins;
 import dev.sefiraat.sefilib.itemstacks.ItemStackGenerators;
+import dev.sefiraat.cultivation.implementation.slimefun.LocalizedStacks;
 import dev.sefiraat.sefilib.string.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
@@ -20,7 +21,7 @@ public final class CultivationStacks {
 
     // region Trees
 
-    public static final SlimefunItemStack TREE_BANANA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_BANANA = LocalizedStacks.themed(
         "CLT_TREE_BANANA",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
@@ -30,7 +31,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_LEMON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_LEMON = LocalizedStacks.themed(
         "CLT_TREE_LEMON",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
@@ -40,7 +41,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_ORANGE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_ORANGE = LocalizedStacks.themed(
         "CLT_TREE_ORANGE",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
@@ -50,7 +51,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_GREEN_APPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_GREEN_APPLE = LocalizedStacks.themed(
         "CLT_TREE_GREEN_APPLE",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
@@ -60,7 +61,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_PINEAPPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_PINEAPPLE = LocalizedStacks.themed(
         "CLT_TREE_PINEAPPLE",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
@@ -70,7 +71,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_MANGO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_MANGO = LocalizedStacks.themed(
         "CLT_TREE_MANGO",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
@@ -80,7 +81,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_PEACH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_PEACH = LocalizedStacks.themed(
         "CLT_TREE_PEACH",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
@@ -90,7 +91,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_APRICOT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_APRICOT = LocalizedStacks.themed(
         "CLT_TREE_APRICOT",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
@@ -100,7 +101,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_PEAR = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_PEAR = LocalizedStacks.themed(
         "CLT_TREE_PEAR",
         new ItemStack(Material.ACACIA_SAPLING),
         CultivationThemes.SAPLING,
@@ -110,7 +111,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_CHERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_CHERRY = LocalizedStacks.themed(
         "CLT_TREE_CHERRY",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
@@ -120,7 +121,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_KIWI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_KIWI = LocalizedStacks.themed(
         "CLT_TREE_KIWI",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
@@ -130,7 +131,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_LIME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_LIME = LocalizedStacks.themed(
         "CLT_TREE_LIME",
         new ItemStack(Material.JUNGLE_SAPLING),
         CultivationThemes.SAPLING,
@@ -140,7 +141,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_CHESTNUT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_CHESTNUT = LocalizedStacks.themed(
         "CLT_TREE_CHESTNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
@@ -150,7 +151,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_HAZELNUT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_HAZELNUT = LocalizedStacks.themed(
         "CLT_TREE_HAZELNUT",
         new ItemStack(Material.OAK_SAPLING),
         CultivationThemes.SAPLING,
@@ -160,7 +161,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack TREE_PECAN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TREE_PECAN = LocalizedStacks.themed(
         "CLT_TREE_PECAN",
         new ItemStack(Material.BIRCH_SAPLING),
         CultivationThemes.SAPLING,
@@ -174,7 +175,7 @@ public final class CultivationStacks {
 
     // region Bushes
 
-    public static final SlimefunItemStack BUSH_GRAPE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_GRAPE = LocalizedStacks.themed(
         "CLT_BUSH_GRAPE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -185,7 +186,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_PEANUTS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_PEANUTS = LocalizedStacks.themed(
         "CLT_BUSH_PEANUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -195,7 +196,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_STRAWBERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_STRAWBERRY = LocalizedStacks.themed(
         "CLT_BUSH_STRAWBERRY",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -205,7 +206,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RICE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RICE = LocalizedStacks.themed(
         "CLT_BUSH_RICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -215,7 +216,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_GARLIC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_GARLIC = LocalizedStacks.themed(
         "CLT_BUSH_GARLIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -225,7 +226,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CAYENNE_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CAYENNE_PEPPER = LocalizedStacks.themed(
         "CLT_BUSH_CAYENNE_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -235,7 +236,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_TOMATO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_TOMATO = LocalizedStacks.themed(
         "CLT_BUSH_TOMATO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -245,7 +246,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BELL_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BELL_PEPPER = LocalizedStacks.themed(
         "CLT_BUSH_BELL_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -256,7 +257,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_ONION = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_ONION = LocalizedStacks.themed(
         "CLT_BUSH_ONION",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -266,7 +267,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_PEA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_PEA = LocalizedStacks.themed(
         "CLT_BUSH_PEA",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -276,7 +277,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RAPESEED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RAPESEED = LocalizedStacks.themed(
         "CLT_BUSH_RAPESEED",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -286,7 +287,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_LETTUCE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_LETTUCE = LocalizedStacks.themed(
         "CLT_BUSH_LETTUCE",
         Skins.SPIKEY_GREEN_4.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -297,7 +298,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_MUSTARD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_MUSTARD = LocalizedStacks.themed(
         "CLT_BUSH_MUSTARD",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -307,7 +308,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BROCCOLI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BROCCOLI = LocalizedStacks.themed(
         "CLT_BUSH_BROCCOLI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -317,7 +318,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CINNAMON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CINNAMON = LocalizedStacks.themed(
         "CLT_BUSH_CINNAMON",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -327,7 +328,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BASIL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BASIL = LocalizedStacks.themed(
         "CLT_BUSH_BASIL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -337,7 +338,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BAY_LEAF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BAY_LEAF = LocalizedStacks.themed(
         "CLT_BUSH_BAY_LEAF",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -347,7 +348,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CILANTRO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CILANTRO = LocalizedStacks.themed(
         "CLT_BUSH_CILANTRO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -357,7 +358,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CHICORY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CHICORY = LocalizedStacks.themed(
         "CLT_BUSH_CHICORY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -368,7 +369,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CHIVES = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CHIVES = LocalizedStacks.themed(
         "CLT_BUSH_CHIVES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -379,7 +380,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CLOVE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CLOVE = LocalizedStacks.themed(
         "CLT_BUSH_CLOVE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -389,7 +390,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CUMIN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CUMIN = LocalizedStacks.themed(
         "CLT_BUSH_CUMIN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -399,7 +400,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CHILLI_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CHILLI_PEPPER = LocalizedStacks.themed(
         "CLT_BUSH_CHILLI_PEPPER",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -409,7 +410,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CURRY_LEAF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CURRY_LEAF = LocalizedStacks.themed(
         "CLT_BUSH_CURRY_LEAF",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -419,7 +420,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_DILL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_DILL = LocalizedStacks.themed(
         "CLT_BUSH_DILL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -429,7 +430,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_FENNEL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_FENNEL = LocalizedStacks.themed(
         "CLT_BUSH_FENNEL",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -439,7 +440,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_GINGER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_GINGER = LocalizedStacks.themed(
         "CLT_BUSH_GINGER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -449,7 +450,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_HORSERADISH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_HORSERADISH = LocalizedStacks.themed(
         "CLT_BUSH_HORSERADISH",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -459,7 +460,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_JASMINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_JASMINE = LocalizedStacks.themed(
         "CLT_BUSH_JASMINE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -469,7 +470,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_JUNIPER_BERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_JUNIPER_BERRY = LocalizedStacks.themed(
         "CLT_BUSH_JUNIPER_BERRY",
         Skins.SPIKEY_BLUE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -479,7 +480,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_KAFFIR_LIME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_KAFFIR_LIME = LocalizedStacks.themed(
         "CLT_BUSH_KAFFIR_LIME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -489,7 +490,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_LAVENDER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_LAVENDER = LocalizedStacks.themed(
         "CLT_BUSH_LAVENDER",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -499,7 +500,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_LICORICE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_LICORICE = LocalizedStacks.themed(
         "CLT_BUSH_LICORICE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -509,7 +510,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_MACE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_MACE = LocalizedStacks.themed(
         "CLT_BUSH_MACE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -519,7 +520,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_MARJORAM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_MARJORAM = LocalizedStacks.themed(
         "CLT_BUSH_MARJORAM",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -529,7 +530,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_MINT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_MINT = LocalizedStacks.themed(
         "CLT_BUSH_MINT",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -539,7 +540,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_OREGANO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_OREGANO = LocalizedStacks.themed(
         "CLT_BUSH_OREGANO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -549,7 +550,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_PARSLEY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_PARSLEY = LocalizedStacks.themed(
         "CLT_BUSH_PARSLEY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -559,7 +560,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_ROSEMARY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_ROSEMARY = LocalizedStacks.themed(
         "CLT_BUSH_ROSEMARY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -569,7 +570,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SASSAFRAS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SASSAFRAS = LocalizedStacks.themed(
         "CLT_BUSH_SASSAFRAS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -580,7 +581,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SHISO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SHISO = LocalizedStacks.themed(
         "CLT_BUSH_SHISO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -592,7 +593,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_STAR_ANISE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_STAR_ANISE = LocalizedStacks.themed(
         "CLT_BUSH_STAR_ANISE",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -603,7 +604,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_TARRAGON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_TARRAGON = LocalizedStacks.themed(
         "CLT_BUSH_TARRAGON",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -613,7 +614,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_THYME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_THYME = LocalizedStacks.themed(
         "CLT_BUSH_THYME",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -623,7 +624,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_TURMERIC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_TURMERIC = LocalizedStacks.themed(
         "CLT_BUSH_TURMERIC",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -634,7 +635,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_VANILLA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_VANILLA = LocalizedStacks.themed(
         "CLT_BUSH_VANILLA",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -644,7 +645,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_WASABI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_WASABI = LocalizedStacks.themed(
         "CLT_BUSH_WASABI",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -655,7 +656,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_ARTICHOKE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_ARTICHOKE = LocalizedStacks.themed(
         "CLT_BUSH_ARTICHOKE",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -666,7 +667,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_AUBERGINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_AUBERGINE = LocalizedStacks.themed(
         "CLT_BUSH_AUBERGINE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -676,7 +677,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_ASPARAGUS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_ASPARAGUS = LocalizedStacks.themed(
         "CLT_BUSH_ASPARAGUS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -687,7 +688,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BRUSSELS_SPROUTS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BRUSSELS_SPROUTS = LocalizedStacks.themed(
         "CLT_BUSH_BRUSSELS_SPROUTS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -698,7 +699,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CABBAGE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CABBAGE = LocalizedStacks.themed(
         "CLT_BUSH_CABBAGE",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -709,7 +710,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CAULIFLOWER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CAULIFLOWER = LocalizedStacks.themed(
         "CLT_BUSH_CAULIFLOWER",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -720,7 +721,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CELERY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CELERY = LocalizedStacks.themed(
         "CLT_BUSH_CELERY",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -731,7 +732,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_KALE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_KALE = LocalizedStacks.themed(
         "CLT_BUSH_KALE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -742,7 +743,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SPINACH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SPINACH = LocalizedStacks.themed(
         "CLT_BUSH_SPINACH",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -752,7 +753,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BLACK_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BLACK_BEANS = LocalizedStacks.themed(
         "CLT_BUSH_BLACK_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -763,7 +764,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_GREEN_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_GREEN_BEANS = LocalizedStacks.themed(
         "CLT_BUSH_GREEN_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -774,7 +775,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CHICKPEAS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CHICKPEAS = LocalizedStacks.themed(
         "CLT_BUSH_CHICKPEAS",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -785,7 +786,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SOY_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SOY_BEANS = LocalizedStacks.themed(
         "CLT_BUSH_SOY_BEANS",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -796,7 +797,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_PINTO_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_PINTO_BEANS = LocalizedStacks.themed(
         "CLT_BUSH_PINTO_BEANS",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -807,7 +808,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RUNNER_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RUNNER_BEANS = LocalizedStacks.themed(
         "CLT_BUSH_RUNNER_BEANS",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -817,7 +818,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_NETTLES = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_NETTLES = LocalizedStacks.themed(
         "CLT_BUSH_NETTLES",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -827,7 +828,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_OKRA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_OKRA = LocalizedStacks.themed(
         "CLT_BUSH_OKRA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -838,7 +839,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_LEEK = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_LEEK = LocalizedStacks.themed(
         "CLT_BUSH_LEEK",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -849,7 +850,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SHALLOT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SHALLOT = LocalizedStacks.themed(
         "CLT_BUSH_SHALLOT",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -860,7 +861,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_JALAPENO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_JALAPENO = LocalizedStacks.themed(
         "CLT_BUSH_JALAPENO",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -871,7 +872,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RADICCHIO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RADICCHIO = LocalizedStacks.themed(
         "CLT_BUSH_RADICCHIO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -883,7 +884,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RHUBARB = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RHUBARB = LocalizedStacks.themed(
         "CLT_BUSH_RHUBARB",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -894,7 +895,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CELERIAC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CELERIAC = LocalizedStacks.themed(
         "CLT_BUSH_CELERIAC",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -905,7 +906,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_PARSNIP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_PARSNIP = LocalizedStacks.themed(
         "CLT_BUSH_PARSNIP",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -916,7 +917,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RUTABAGA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RUTABAGA = LocalizedStacks.themed(
         "CLT_BUSH_RUTABAGA",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -926,7 +927,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_RADDISH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_RADDISH = LocalizedStacks.themed(
         "CLT_BUSH_RADDISH",
         Skins.SPIKEY_RED_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -937,7 +938,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SWEET_POTATO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SWEET_POTATO = LocalizedStacks.themed(
         "CLT_BUSH_SWEET_POTATO",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -948,7 +949,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_TURNIP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_TURNIP = LocalizedStacks.themed(
         "CLT_BUSH_TURNIP",
         Skins.SPIKEY_ORANGE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -959,7 +960,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_SWEETCORN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_SWEETCORN = LocalizedStacks.themed(
         "CLT_BUSH_SWEETCORN",
         Skins.SPIKEY_YELLOW_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -970,7 +971,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_COURGETTE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_COURGETTE = LocalizedStacks.themed(
         "CLT_BUSH_COURGETTE",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -981,7 +982,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_CUCUMBER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_CUCUMBER = LocalizedStacks.themed(
         "CLT_BUSH_CUCUMBER",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -992,7 +993,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_MARROW = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_MARROW = LocalizedStacks.themed(
         "CLT_BUSH_MARROW",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -1003,7 +1004,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_AVOCADO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_AVOCADO = LocalizedStacks.themed(
         "CLT_BUSH_AVOCADO",
         Skins.SPIKEY_GREEN_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -1014,7 +1015,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_GREEN_ONION = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_GREEN_ONION = LocalizedStacks.themed(
         "CLT_BUSH_GREEN_ONION",
         Skins.SPIKEY_GREEN_4.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -1026,7 +1027,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack BUSH_BLACK_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BUSH_BLACK_PEPPER = LocalizedStacks.themed(
         "CLT_BUSH_PEPPER",
         Skins.SPIKEY_PURPLE_5.getPlayerHead(),
         CultivationThemes.BUSH,
@@ -1042,7 +1043,7 @@ public final class CultivationStacks {
 
     // region Plants
 
-    public static final SlimefunItemStack PLANT_DARKNESS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DARKNESS = LocalizedStacks.themed(
         "CLT_PLANT_DARKNESS",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1056,7 +1057,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_LIGHT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_LIGHT = LocalizedStacks.themed(
         "CLT_PLANT_LIGHT",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1070,7 +1071,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_EARTH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_EARTH = LocalizedStacks.themed(
         "CLT_PLANT_EARTH",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1084,7 +1085,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WATER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WATER = LocalizedStacks.themed(
         "CLT_PLANT_WATER",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1098,7 +1099,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_FIRE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_FIRE = LocalizedStacks.themed(
         "CLT_PLANT_FIRE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1113,7 +1114,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_AIR = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_AIR = LocalizedStacks.themed(
         "CLT_PLANT_AIR",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1127,7 +1128,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_POWER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_POWER = LocalizedStacks.themed(
         "CLT_PLANT_POWER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1140,7 +1141,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WEALTH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WEALTH = LocalizedStacks.themed(
         "CLT_PLANT_WEALTH",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1153,7 +1154,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SPECTRUM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SPECTRUM = LocalizedStacks.themed(
         "CLT_PLANT_SPECTRUM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1166,7 +1167,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DIRT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DIRT = LocalizedStacks.themed(
         "CLT_PLANT_DIRT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1177,7 +1178,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GRASS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GRASS = LocalizedStacks.themed(
         "CLT_PLANT_GRASS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1188,7 +1189,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_FLOWER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_FLOWER = LocalizedStacks.themed(
         "CLT_PLANT_FLOWER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1198,7 +1199,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_VINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_VINE = LocalizedStacks.themed(
         "CLT_PLANT_VINE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1209,7 +1210,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SAND = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SAND = LocalizedStacks.themed(
         "CLT_PLANT_SAND",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1220,7 +1221,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RED_SAND = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RED_SAND = LocalizedStacks.themed(
         "CLT_PLANT_RED_SAND",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1231,7 +1232,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_MOSS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_MOSS = LocalizedStacks.themed(
         "CLT_PLANT_MOSS",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1241,7 +1242,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SAPLING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SAPLING = LocalizedStacks.themed(
         "CLT_PLANT_SAPLING",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1251,7 +1252,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_MUSHROOM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_MUSHROOM = LocalizedStacks.themed(
         "CLT_PLANT_MUSHROOM",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1262,7 +1263,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WITHER_ROSE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WITHER_ROSE = LocalizedStacks.themed(
         "CLT_PLANT_WITHER_ROSE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1273,7 +1274,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DARK_FLORA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DARK_FLORA = LocalizedStacks.themed(
         "CLT_PLANT_DARK_FLORA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1283,7 +1284,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GLOWING_VINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GLOWING_VINE = LocalizedStacks.themed(
         "CLT_PLANT_GLOWING_VINE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1293,7 +1294,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DIM_LIT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DIM_LIT = LocalizedStacks.themed(
         "CLT_PLANT_DIM_LIT",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1303,7 +1304,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_COW = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_COW = LocalizedStacks.themed(
         "CLT_PLANT_COW",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1315,7 +1316,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_CHICKEN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_CHICKEN = LocalizedStacks.themed(
         "CLT_PLANT_CHICKEN",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1328,7 +1329,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_FISH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_FISH = LocalizedStacks.themed(
         "CLT_PLANT_FISH",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1338,7 +1339,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_TURTLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_TURTLE = LocalizedStacks.themed(
         "CLT_PLANT_TURTLE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1348,7 +1349,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_VILLAGER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_VILLAGER = LocalizedStacks.themed(
         "CLT_PLANT_VILLAGER",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1359,7 +1360,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RABBIT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RABBIT = LocalizedStacks.themed(
         "CLT_PLANT_RABBIT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1369,7 +1370,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SHEEP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SHEEP = LocalizedStacks.themed(
         "CLT_PLANT_SHEEP",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1379,7 +1380,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_PIG = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_PIG = LocalizedStacks.themed(
         "CLT_PLANT_PIG",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1389,7 +1390,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_BEE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_BEE = LocalizedStacks.themed(
         "CLT_PLANT_BEE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1399,7 +1400,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SQUID = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SQUID = LocalizedStacks.themed(
         "CLT_PLANT_SQUID",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1411,7 +1412,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GLOW_SQUID = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GLOW_SQUID = LocalizedStacks.themed(
         "CLT_PLANT_GLOW_SQUID",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1421,7 +1422,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_FROG = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_FROG = LocalizedStacks.themed(
         "CLT_PLANT_FROG",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1431,7 +1432,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GOAT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GOAT = LocalizedStacks.themed(
         "CLT_PLANT_GOAT",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1442,7 +1443,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RAINBOW = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RAINBOW = LocalizedStacks.themed(
         "CLT_PLANT_RAINBOW",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1453,7 +1454,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WAXY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WAXY = LocalizedStacks.themed(
         "CLT_PLANT_WAXY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1464,7 +1465,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WOOLLY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WOOLLY = LocalizedStacks.themed(
         "CLT_PLANT_WOOLLY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1474,7 +1475,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_TERRA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_TERRA = LocalizedStacks.themed(
         "CLT_PLANT_TERRA",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1484,7 +1485,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GLAZED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GLAZED = LocalizedStacks.themed(
         "CLT_PLANT_GLAZED",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1494,7 +1495,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DUSTY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DUSTY = LocalizedStacks.themed(
         "CLT_PLANT_DUSTY",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1506,7 +1507,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_CONCRETE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_CONCRETE = LocalizedStacks.themed(
         "CLT_PLANT_CONCRETE",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1517,7 +1518,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_STAINED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_STAINED = LocalizedStacks.themed(
         "CLT_PLANT_STAINED",
         Skins.SEED_CYAN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1528,7 +1529,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_COBBLESTONE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_COBBLESTONE = LocalizedStacks.themed(
         "CLT_PLANT_COBBLESTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1538,7 +1539,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GRAVEL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GRAVEL = LocalizedStacks.themed(
         "CLT_PLANT_GRAVEL",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1549,7 +1550,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_CLAY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_CLAY = LocalizedStacks.themed(
         "CLT_PLANT_CLAY",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1561,7 +1562,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_IGNEOUS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_IGNEOUS = LocalizedStacks.themed(
         "CLT_PLANT_IGNEOUS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1573,7 +1574,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DEEPSLATE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DEEPSLATE = LocalizedStacks.themed(
         "CLT_PLANT_DEEPSLATE",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1583,7 +1584,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_REINFORCED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_REINFORCED = LocalizedStacks.themed(
         "CLT_PLANT_REINFORCED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1594,7 +1595,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_BLACKSTONE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_BLACKSTONE = LocalizedStacks.themed(
         "CLT_PLANT_BLACKSTONE",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1604,7 +1605,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_NETHERRACK = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_NETHERRACK = LocalizedStacks.themed(
         "CLT_PLANT_NETHERRACK",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1615,7 +1616,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DARK_GRASS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DARK_GRASS = LocalizedStacks.themed(
         "CLT_PLANT_DARK_GRASS",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1626,7 +1627,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_MAGMA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_MAGMA = LocalizedStacks.themed(
         "CLT_PLANT_MAGMA",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1637,7 +1638,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SOUL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SOUL = LocalizedStacks.themed(
         "CLT_PLANT_SOUL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1648,7 +1649,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_BASALT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_BASALT = LocalizedStacks.themed(
         "CLT_PLANT_BASALT",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1658,7 +1659,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GLASS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GLASS = LocalizedStacks.themed(
         "CLT_PLANT_GLASS",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1669,7 +1670,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_MUD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_MUD = LocalizedStacks.themed(
         "CLT_PLANT_MUD",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1680,7 +1681,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_END_STONE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_END_STONE = LocalizedStacks.themed(
         "CLT_PLANT_END_STONE",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1690,7 +1691,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_PURPUR = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_PURPUR = LocalizedStacks.themed(
         "CLT_PLANT_PURPUR",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1701,7 +1702,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_COAL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_COAL = LocalizedStacks.themed(
         "CLT_PLANT_COAL",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1711,7 +1712,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RAW_IRON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RAW_IRON = LocalizedStacks.themed(
         "CLT_PLANT_RAW_IRON",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1722,7 +1723,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RAW_COPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RAW_COPPER = LocalizedStacks.themed(
         "CLT_PLANT_RAW_COPPER",
         Skins.SEED_ORANGE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1733,7 +1734,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_RAW_GOLD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_RAW_GOLD = LocalizedStacks.themed(
         "CLT_PLANT_RAW_GOLD",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1744,7 +1745,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_REDSTONE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_REDSTONE = LocalizedStacks.themed(
         "CLT_PLANT_REDSTONE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1754,7 +1755,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_LAPIS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_LAPIS = LocalizedStacks.themed(
         "CLT_PLANT_LAPIS",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1764,7 +1765,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DIAMOND = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DIAMOND = LocalizedStacks.themed(
         "CLT_PLANT_DIAMOND",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1774,7 +1775,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_EMERALD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_EMERALD = LocalizedStacks.themed(
         "CLT_PLANT_EMERALD",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1785,7 +1786,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_NETHER_QUARTZ = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_NETHER_QUARTZ = LocalizedStacks.themed(
         "CLT_PLANT_NETHER_QUARTZ",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1796,7 +1797,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SCRAPPY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SCRAPPY = LocalizedStacks.themed(
         "CLT_PLANT_SCRAPPY",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1807,7 +1808,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_AMETHYST = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_AMETHYST = LocalizedStacks.themed(
         "CLT_PLANT_AMETHYST",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1818,7 +1819,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_ECHO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ECHO = LocalizedStacks.themed(
         "CLT_PLANT_ECHO",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1829,7 +1830,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SKELETON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SKELETON = LocalizedStacks.themed(
         "CLT_PLANT_SKELETON",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1839,7 +1840,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SPIDER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SPIDER = LocalizedStacks.themed(
         "CLT_PLANT_SPIDER",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1849,7 +1850,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_CREEPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_CREEPER = LocalizedStacks.themed(
         "CLT_PLANT_CREEPER",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1859,7 +1860,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_ZOMBIE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ZOMBIE = LocalizedStacks.themed(
         "CLT_PLANT_ZOMBIE",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1869,7 +1870,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_DROWNED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_DROWNED = LocalizedStacks.themed(
         "CLT_PLANT_DROWNED",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1880,7 +1881,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GUARDIAN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GUARDIAN = LocalizedStacks.themed(
         "CLT_PLANT_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1891,7 +1892,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_ELDER_GUARDIAN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ELDER_GUARDIAN = LocalizedStacks.themed(
         "CLT_PLANT_ELDER_GUARDIAN",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1902,7 +1903,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_GHAST = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_GHAST = LocalizedStacks.themed(
         "CLT_PLANT_GHAST",
         Skins.SEED_YELLOW.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1913,7 +1914,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SLIME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SLIME = LocalizedStacks.themed(
         "CLT_PLANT_SLIME",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1923,7 +1924,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_MAGMA_CUBE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_MAGMA_CUBE = LocalizedStacks.themed(
         "CLT_PLANT_MAGMA_CUBE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1934,7 +1935,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_BLAZE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_BLAZE = LocalizedStacks.themed(
         "CLT_PLANT_BLAZE",
         Skins.SEED_RED.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1944,7 +1945,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WITHER_SKELETON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WITHER_SKELETON = LocalizedStacks.themed(
         "CLT_PLANT_WITHER_SKELETON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1954,7 +1955,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WITHER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WITHER = LocalizedStacks.themed(
         "CLT_PLANT_WITHER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1965,7 +1966,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_PHANTOM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_PHANTOM = LocalizedStacks.themed(
         "CLT_PLANT_PHANTOM",
         Skins.SEED_BLUE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1975,7 +1976,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_SHULKER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_SHULKER = LocalizedStacks.themed(
         "CLT_PLANT_SHULKER",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1986,7 +1987,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_ENDERMAN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ENDERMAN = LocalizedStacks.themed(
         "CLT_PLANT_ENDERMAN",
         Skins.SEED_GREEN.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -1997,7 +1998,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_ENDER_DRAGON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ENDER_DRAGON = LocalizedStacks.themed(
         "CLT_PLANT_ENDER_DRAGON",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -2007,7 +2008,7 @@ public final class CultivationStacks {
         )
     );
 
-    public static final SlimefunItemStack PLANT_WITCH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_WITCH = LocalizedStacks.themed(
         "CLT_PLANT_WITCH",
         Skins.SEED_PURPLE.getPlayerHead(),
         CultivationThemes.PLANT,
@@ -2027,7 +2028,7 @@ public final class CultivationStacks {
 
     // region Tools
 
-    public static final SlimefunItemStack CROP_STICKS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CROP_STICKS = LocalizedStacks.themed(
         "CLT_CROP_STICKS",
         Material.STICK,
         CultivationThemes.TOOL,
@@ -2039,7 +2040,7 @@ public final class CultivationStacks {
         "breed."
     );
 
-    public static final SlimefunItemStack HARVESTING_TOOL_SIMPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack HARVESTING_TOOL_SIMPLE = LocalizedStacks.themed(
         "CLT_HARVESTING_TOOL_SIMPLE",
         Material.TRIPWIRE_HOOK,
         CultivationThemes.TOOL,
@@ -2053,7 +2054,7 @@ public final class CultivationStacks {
         LoreBuilder.usesLeft(50)
     );
 
-    public static final SlimefunItemStack TRIMMING_TOOL_SIMPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TRIMMING_TOOL_SIMPLE = LocalizedStacks.themed(
         "CLT_TRIMMING_TOOL_SIMPLE",
         Material.SHEARS,
         CultivationThemes.TOOL,
@@ -2066,7 +2067,7 @@ public final class CultivationStacks {
         LoreBuilder.usesLeft(50)
     );
 
-    public static final SlimefunItemStack PLANT_ANALYSER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PLANT_ANALYSER = LocalizedStacks.themed(
         "CLT_PLANT_ANALYSER",
         Material.DIAMOND,
         CultivationThemes.TOOL,
@@ -2082,7 +2083,7 @@ public final class CultivationStacks {
         Theme.applyThemeAsTitle(Theme.CLICK_INFO, "Shift Right Click", "Displays a plant or bushes name.")
     );
 
-    public static final SlimefunItemStack RECIPE_UNLOCK = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RECIPE_UNLOCK = LocalizedStacks.themed(
         "CLT_RECIPE_UNLOCK",
         Material.PAPER,
         CultivationThemes.TOOL,
@@ -2093,7 +2094,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Unlocks", "{0}")
     );
 
-    public static final SlimefunItemStack SEED_PACK = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SEED_PACK = LocalizedStacks.themed(
         "CLT_SEED_PACK",
         Material.COMPOSTER,
         CultivationThemes.TOOL,
@@ -2107,7 +2108,7 @@ public final class CultivationStacks {
 
     // region Machines
 
-    public static final SlimefunItemStack GARDEN_CLOCHE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GARDEN_CLOCHE = LocalizedStacks.themed(
         "CLT_GARDEN_CLOCHE",
         Material.GLASS,
         CultivationThemes.MACHINE,
@@ -2117,7 +2118,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Power per Tick", 100)
     );
 
-    public static final SlimefunItemStack COUNTER_NOTHING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_NOTHING = LocalizedStacks.themed(
         "CLT_COUNTER_NOTHING",
         Material.STRIPPED_DARK_OAK_LOG,
         CultivationThemes.MACHINE,
@@ -2129,7 +2130,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_CHOPPING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_CHOPPING = LocalizedStacks.themed(
         "CLT_COUNTER_CHOPPING",
         Material.SMITHING_TABLE,
         CultivationThemes.MACHINE,
@@ -2141,7 +2142,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_SLICING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_SLICING = LocalizedStacks.themed(
         "CLT_COUNTER_SLICING",
         Material.CARTOGRAPHY_TABLE,
         CultivationThemes.MACHINE,
@@ -2153,7 +2154,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_MASHER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_MASHER = LocalizedStacks.themed(
         "CLT_COUNTER_MASHER",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
@@ -2165,7 +2166,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_GRINDER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_GRINDER = LocalizedStacks.themed(
         "CLT_COUNTER_GRINDER",
         Material.CAULDRON,
         CultivationThemes.MACHINE,
@@ -2177,7 +2178,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_BLENDER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_BLENDER = LocalizedStacks.themed(
         "CLT_COUNTER_BLENDER",
         Material.FLETCHING_TABLE,
         CultivationThemes.MACHINE,
@@ -2189,7 +2190,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_OVEN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_OVEN = LocalizedStacks.themed(
         "CLT_COUNTER_OVEN",
         Material.FURNACE,
         CultivationThemes.MACHINE,
@@ -2201,7 +2202,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_FRYER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_FRYER = LocalizedStacks.themed(
         "CLT_COUNTER_FRYING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
@@ -2213,7 +2214,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_BOILING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_BOILING = LocalizedStacks.themed(
         "CLT_COUNTER_BOILING",
         Material.BLACK_STAINED_GLASS,
         CultivationThemes.MACHINE,
@@ -2225,7 +2226,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_GRILL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_GRILL = LocalizedStacks.themed(
         "CLT_COUNTER_GRILL",
         Material.CAMPFIRE,
         CultivationThemes.MACHINE,
@@ -2237,7 +2238,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO + "change the kitchen design. Try it out!"
     );
 
-    public static final SlimefunItemStack COUNTER_FINISHING = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COUNTER_FINISHING = LocalizedStacks.themed(
         "CLT_COUNTER_FINISHING",
         Material.CRAFTING_TABLE,
         CultivationThemes.MACHINE,
@@ -2254,7 +2255,7 @@ public final class CultivationStacks {
 
     // region Produce
 
-    public static final SlimefunItemStack BANANA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BANANA = LocalizedStacks.themed(
         "CLT_BANANA",
         Skins.BANANA.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2262,7 +2263,7 @@ public final class CultivationStacks {
         "I like the look and peel of this!"
     );
 
-    public static final SlimefunItemStack LEMON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LEMON = LocalizedStacks.themed(
         "CLT_LEMON",
         Skins.LEMON.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2270,7 +2271,7 @@ public final class CultivationStacks {
         "Why the sour look?"
     );
 
-    public static final SlimefunItemStack ORANGE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ORANGE = LocalizedStacks.themed(
         "CLT_ORANGE",
         Skins.ORANGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2278,7 +2279,7 @@ public final class CultivationStacks {
         "Isn't this meant to be clockwork?"
     );
 
-    public static final SlimefunItemStack GREEN_APPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GREEN_APPLE = LocalizedStacks.themed(
         "CLT_GREEN_APPLE",
         Skins.GREEN_APPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2286,7 +2287,7 @@ public final class CultivationStacks {
         "The note says... Dear Teacher?"
     );
 
-    public static final SlimefunItemStack PINEAPPLE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PINEAPPLE = LocalizedStacks.themed(
         "CLT_PINEAPPLE",
         Skins.PINEAPPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2295,7 +2296,7 @@ public final class CultivationStacks {
         "Wanna fight about it!?"
     );
 
-    public static final SlimefunItemStack MANGO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MANGO = LocalizedStacks.themed(
         "CLT_MANGO",
         Skins.MANGO.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2304,7 +2305,7 @@ public final class CultivationStacks {
         "Lore is hard..."
     );
 
-    public static final SlimefunItemStack PEACH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEACH = LocalizedStacks.themed(
         "CLT_PEACH",
         Skins.PEACH.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2312,7 +2313,7 @@ public final class CultivationStacks {
         "We don't talk about the Emoji"
     );
 
-    public static final SlimefunItemStack APRICOT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack APRICOT = LocalizedStacks.themed(
         "CLT_APRICOT",
         Skins.APRICOT.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2322,7 +2323,7 @@ public final class CultivationStacks {
         "What do you mean that's different thing...?"
     );
 
-    public static final SlimefunItemStack PEAR = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEAR = LocalizedStacks.themed(
         "CLT_PEAR",
         Skins.PEAR.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2330,7 +2331,7 @@ public final class CultivationStacks {
         "Wouldn't you say this looks pear-fect?"
     );
 
-    public static final SlimefunItemStack CHERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHERRY = LocalizedStacks.themed(
         "CLT_CHERRY",
         Skins.CHERRY.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2338,7 +2339,7 @@ public final class CultivationStacks {
         "Oh, I thought they grew Glacé'd, shame!"
     );
 
-    public static final SlimefunItemStack KIWI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack KIWI = LocalizedStacks.themed(
         "CLT_KIWI",
         Skins.KIWI.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2349,7 +2350,7 @@ public final class CultivationStacks {
         "100 points."
     );
 
-    public static final SlimefunItemStack LIME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LIME = LocalizedStacks.themed(
         "CLT_LIME",
         Skins.KIWI.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2357,7 +2358,7 @@ public final class CultivationStacks {
         "One upon a lime there was a delicious fruit..."
     );
 
-    public static final SlimefunItemStack CHESTNUT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHESTNUT = LocalizedStacks.themed(
         "CLT_CHESTNUT",
         Skins.CHESTNUT.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2365,7 +2366,7 @@ public final class CultivationStacks {
         "Designed to be baked, immediately."
     );
 
-    public static final SlimefunItemStack HAZELNUT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack HAZELNUT = LocalizedStacks.themed(
         "CLT_HAZELNUT",
         Skins.HAZELNUT.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2374,7 +2375,7 @@ public final class CultivationStacks {
         "a coffee for me, now!"
     );
 
-    public static final SlimefunItemStack PECAN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PECAN = LocalizedStacks.themed(
         "CLT_PECAN",
         Skins.PECAN.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2382,7 +2383,7 @@ public final class CultivationStacks {
         "Just begging to be made into a pie."
     );
 
-    public static final SlimefunItemStack GRAPE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GRAPE = LocalizedStacks.themed(
         "CLT_GRAPE",
         Skins.GRAPE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2390,7 +2391,7 @@ public final class CultivationStacks {
         "So plump!"
     );
 
-    public static final SlimefunItemStack PEANUT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEANUT = LocalizedStacks.themed(
         "CLT_PEANUT",
         Skins.PEANUT.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2398,7 +2399,7 @@ public final class CultivationStacks {
         "Reece's here I come!"
     );
 
-    public static final SlimefunItemStack STRAWBERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack STRAWBERRY = LocalizedStacks.themed(
         "CLT_STRAWBERRY",
         Skins.STRAWBERRY.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2406,7 +2407,7 @@ public final class CultivationStacks {
         "Just add cream!"
     );
 
-    public static final SlimefunItemStack RICE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RICE = LocalizedStacks.themed(
         "CLT_RICE",
         Skins.RICE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2414,7 +2415,7 @@ public final class CultivationStacks {
         "Remember, you only live rice!"
     );
 
-    public static final SlimefunItemStack GARLIC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GARLIC = LocalizedStacks.themed(
         "CLT_GARLIC",
         Skins.GARLIC.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2422,7 +2423,7 @@ public final class CultivationStacks {
         "Quick, before the vampires come!"
     );
 
-    public static final SlimefunItemStack CAYENNE_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CAYENNE_PEPPER = LocalizedStacks.themed(
         "CLT_CAYENNE_PEPPER",
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2430,7 +2431,7 @@ public final class CultivationStacks {
         "A soft spicy treat."
     );
 
-    public static final SlimefunItemStack TOMATO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TOMATO = LocalizedStacks.themed(
         "CLT_TOMATO",
         Skins.TOMATO.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2438,7 +2439,7 @@ public final class CultivationStacks {
         "Right off of the vine.... err... bush?"
     );
 
-    public static final SlimefunItemStack BELL_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BELL_PEPPER = LocalizedStacks.themed(
         "CLT_BELL_PEPPER",
         Skins.BELL_PEPPER.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2446,7 +2447,7 @@ public final class CultivationStacks {
         "Really rings true."
     );
 
-    public static final SlimefunItemStack ONION = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ONION = LocalizedStacks.themed(
         "CLT_ONION",
         Skins.ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2454,7 +2455,7 @@ public final class CultivationStacks {
         "Wait, why are you crying?"
     );
 
-    public static final SlimefunItemStack PEA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEA = LocalizedStacks.themed(
         "CLT_PEA",
         Skins.GREEN_APPLE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2462,7 +2463,7 @@ public final class CultivationStacks {
         "Often found in pairs within a pod, or so I hear."
     );
 
-    public static final SlimefunItemStack RAPESEED = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAPESEED = LocalizedStacks.themed(
         "CLT_RAPESEED",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2470,7 +2471,7 @@ public final class CultivationStacks {
         "Oft-used to create oils."
     );
 
-    public static final SlimefunItemStack LETTUCE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LETTUCE = LocalizedStacks.themed(
         "CLT_LETTUCE",
         Skins.LETTUCE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2478,7 +2479,7 @@ public final class CultivationStacks {
         "Thin, watery and yet delicious."
     );
 
-    public static final SlimefunItemStack MUSTARD_SEEDS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MUSTARD_SEEDS = LocalizedStacks.themed(
         "CLT_MUSTARD_SEEDS",
         new ItemStack(Material.PUMPKIN_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2486,7 +2487,7 @@ public final class CultivationStacks {
         "Chew them, I dare you!"
     );
 
-    public static final SlimefunItemStack BROCCOLI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BROCCOLI = LocalizedStacks.themed(
         "CLT_BROCCOLI",
         Skins.BROCCOLI.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2495,7 +2496,7 @@ public final class CultivationStacks {
         "Naw, just a tiny tree :)"
     );
 
-    public static final SlimefunItemStack CINNAMON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CINNAMON = LocalizedStacks.themed(
         "CLT_CINNAMON",
         new ItemStack(Material.STICK),
         CultivationThemes.PRODUCE,
@@ -2503,7 +2504,7 @@ public final class CultivationStacks {
         "Great to chew on in it's stick form."
     );
 
-    public static final SlimefunItemStack BASIL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BASIL = LocalizedStacks.themed(
         "CLT_BASIL",
         new ItemStack(Material.SMALL_DRIPLEAF),
         CultivationThemes.PRODUCE,
@@ -2511,7 +2512,7 @@ public final class CultivationStacks {
         "A sweet leaf with a soft peppery aftertaste."
     );
 
-    public static final SlimefunItemStack BAY_LEAF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BAY_LEAF = LocalizedStacks.themed(
         "CLT_BAY_LEAF",
         new ItemStack(Material.LILY_PAD),
         CultivationThemes.PRODUCE,
@@ -2519,7 +2520,7 @@ public final class CultivationStacks {
         "A strong aromat with many uses."
     );
 
-    public static final SlimefunItemStack CILANTRO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CILANTRO = LocalizedStacks.themed(
         "CLT_CILANTRO",
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2527,7 +2528,7 @@ public final class CultivationStacks {
         "A soft spice with a hit of citrus."
     );
 
-    public static final SlimefunItemStack CHICORY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHICORY = LocalizedStacks.themed(
         "CLT_CHICORY",
         new ItemStack(Material.BLUE_ORCHID),
         CultivationThemes.PRODUCE,
@@ -2535,7 +2536,7 @@ public final class CultivationStacks {
         "A nutty, bitter root."
     );
 
-    public static final SlimefunItemStack CHIVES = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHIVES = LocalizedStacks.themed(
         "CLT_CHIVES",
         new ItemStack(Material.SEAGRASS),
         CultivationThemes.PRODUCE,
@@ -2543,7 +2544,7 @@ public final class CultivationStacks {
         "A sweat, onion-tasting, herb."
     );
 
-    public static final SlimefunItemStack CLOVE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CLOVE = LocalizedStacks.themed(
         "CLT_CLOVE",
         new ItemStack(Material.POPPY),
         CultivationThemes.PRODUCE,
@@ -2551,7 +2552,7 @@ public final class CultivationStacks {
         "A super warm and intense flavour."
     );
 
-    public static final SlimefunItemStack CUMIN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CUMIN = LocalizedStacks.themed(
         "CLT_CUMIN",
         new ItemStack(Material.DANDELION),
         CultivationThemes.PRODUCE,
@@ -2559,7 +2560,7 @@ public final class CultivationStacks {
         "A warm citrusy plant."
     );
 
-    public static final SlimefunItemStack CHILLI_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHILLI_PEPPER = LocalizedStacks.themed(
         "CLT_CHILLY_PEPPER",
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2571,7 +2572,7 @@ public final class CultivationStacks {
         "Ok I can touch one on my tounge"
     );
 
-    public static final SlimefunItemStack CURRY_LEAF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CURRY_LEAF = LocalizedStacks.themed(
         "CLT_CURRY_LEAF",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
@@ -2579,16 +2580,16 @@ public final class CultivationStacks {
         "The basis of so many wonderful foods."
     );
 
-    public static final SlimefunItemStack DILL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack DILL = LocalizedStacks.themed(
         "CLT_DILL",
-        new ItemStack(Material.GRASS),
+        new ItemStack(Material.SHORT_GRASS),
         CultivationThemes.PRODUCE,
         "Dill",
         "Just taste like grass to me. Why",
         "do people like this?"
     );
 
-    public static final SlimefunItemStack FENNEL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack FENNEL = LocalizedStacks.themed(
         "CLT_FENNEL",
         new ItemStack(Material.OXEYE_DAISY),
         CultivationThemes.PRODUCE,
@@ -2596,7 +2597,7 @@ public final class CultivationStacks {
         "Like a mix of Anise and Liquorice."
     );
 
-    public static final SlimefunItemStack GINGER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GINGER = LocalizedStacks.themed(
         "CLT_GINGER",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
@@ -2604,7 +2605,7 @@ public final class CultivationStacks {
         "Chopped Ginger in boiling water, heals all ailments!"
     );
 
-    public static final SlimefunItemStack HORSERADISH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack HORSERADISH = LocalizedStacks.themed(
         "CLT_HORSERADISH",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
@@ -2612,7 +2613,7 @@ public final class CultivationStacks {
         "$100 if you bite right into it."
     );
 
-    public static final SlimefunItemStack JASMINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack JASMINE = LocalizedStacks.themed(
         "CLT_JASMINE",
         new ItemStack(Material.WHITE_TULIP),
         CultivationThemes.PRODUCE,
@@ -2620,7 +2621,7 @@ public final class CultivationStacks {
         "Makes for a wonderful tea."
     );
 
-    public static final SlimefunItemStack JUNIPER_BERRY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack JUNIPER_BERRY = LocalizedStacks.themed(
         "CLT_JUNIPER_BERRY",
         new ItemStack(Material.GLOW_BERRIES),
         CultivationThemes.PRODUCE,
@@ -2628,7 +2629,7 @@ public final class CultivationStacks {
         "Dried to a peppery perfection."
     );
 
-    public static final SlimefunItemStack KAFFIR_LIME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack KAFFIR_LIME = LocalizedStacks.themed(
         "CLT_KAFFIR_LIME",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
@@ -2636,7 +2637,7 @@ public final class CultivationStacks {
         "A leaf with a mighty zest."
     );
 
-    public static final SlimefunItemStack LAVENDER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LAVENDER = LocalizedStacks.themed(
         "CLT_LAVENDER",
         new ItemStack(Material.PURPLE_DYE),
         CultivationThemes.PRODUCE,
@@ -2644,7 +2645,7 @@ public final class CultivationStacks {
         "A smell that can make me drift slowly to sleep."
     );
 
-    public static final SlimefunItemStack LICORICE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LICORICE = LocalizedStacks.themed(
         "CLT_LICORICE",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
@@ -2652,7 +2653,7 @@ public final class CultivationStacks {
         "Run, run away now!"
     );
 
-    public static final SlimefunItemStack MACE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MACE = LocalizedStacks.themed(
         "CLT_MACE",
         new ItemStack(Material.RED_DYE),
         CultivationThemes.PRODUCE,
@@ -2662,7 +2663,7 @@ public final class CultivationStacks {
         "What do you mean that's not the right type of mace?"
     );
 
-    public static final SlimefunItemStack MARJORAM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MARJORAM = LocalizedStacks.themed(
         "CLT_MARJORAM",
         new ItemStack(Material.DARK_OAK_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2670,7 +2671,7 @@ public final class CultivationStacks {
         "I'm in a bit of a curry, could we talk later?"
     );
 
-    public static final SlimefunItemStack MINT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MINT = LocalizedStacks.themed(
         "CLT_MINT",
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2678,7 +2679,7 @@ public final class CultivationStacks {
         "Chew chew chew."
     );
 
-    public static final SlimefunItemStack OREGANO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack OREGANO = LocalizedStacks.themed(
         "CLT_OREGANO",
         new ItemStack(Material.SPRUCE_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2686,7 +2687,7 @@ public final class CultivationStacks {
         "A classic staple cupboard herb."
     );
 
-    public static final SlimefunItemStack PARSLEY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PARSLEY = LocalizedStacks.themed(
         "CLT_PARSLEY",
         new ItemStack(Material.ACACIA_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2694,7 +2695,7 @@ public final class CultivationStacks {
         "Worst. Herb. Ever."
     );
 
-    public static final SlimefunItemStack ROSEMARY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ROSEMARY = LocalizedStacks.themed(
         "CLT_ROSEMARY",
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2702,7 +2703,7 @@ public final class CultivationStacks {
         "Often misses thyme."
     );
 
-    public static final SlimefunItemStack SASSAFRAS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SASSAFRAS = LocalizedStacks.themed(
         "CLT_SASSAFRAS",
         new ItemStack(Material.OAK_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2711,7 +2712,7 @@ public final class CultivationStacks {
         "it, I buy it constantly now."
     );
 
-    public static final SlimefunItemStack SHISO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SHISO = LocalizedStacks.themed(
         "CLT_SHISO",
         new ItemStack(Material.MANGROVE_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2719,7 +2720,7 @@ public final class CultivationStacks {
         "Mint with a side of love."
     );
 
-    public static final SlimefunItemStack STAR_ANISE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack STAR_ANISE = LocalizedStacks.themed(
         "CLT_STAR_ANISE",
         new ItemStack(Material.NETHER_STAR),
         CultivationThemes.PRODUCE,
@@ -2727,7 +2728,7 @@ public final class CultivationStacks {
         "One of the best and most unique flavours."
     );
 
-    public static final SlimefunItemStack TARRAGON = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TARRAGON = LocalizedStacks.themed(
         "CLT_TARRAGON",
         new ItemStack(Material.JUNGLE_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2736,7 +2737,7 @@ public final class CultivationStacks {
         "Spoiler: Im not a good chef."
     );
 
-    public static final SlimefunItemStack THYME = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack THYME = LocalizedStacks.themed(
         "CLT_THYME",
         new ItemStack(Material.BIRCH_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2744,7 +2745,7 @@ public final class CultivationStacks {
         "Often missed rosemary."
     );
 
-    public static final SlimefunItemStack TURMERIC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TURMERIC = LocalizedStacks.themed(
         "CLT_TURMERIC",
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.PRODUCE,
@@ -2752,7 +2753,7 @@ public final class CultivationStacks {
         "A strong musky presence to fill out many dishes."
     );
 
-    public static final SlimefunItemStack VANILLA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack VANILLA = LocalizedStacks.themed(
         "CLT_VANILLA",
         new ItemStack(Material.BLACK_DYE),
         CultivationThemes.PRODUCE,
@@ -2760,7 +2761,7 @@ public final class CultivationStacks {
         "Instructions: Dip directly into a Latte"
     );
 
-    public static final SlimefunItemStack WASABI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack WASABI = LocalizedStacks.themed(
         "CLT_WASABI",
         new ItemStack(Material.HANGING_ROOTS),
         CultivationThemes.PRODUCE,
@@ -2768,7 +2769,7 @@ public final class CultivationStacks {
         "Help... wasabi..."
     );
 
-    public static final SlimefunItemStack ARTICHOKE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ARTICHOKE = LocalizedStacks.themed(
         "CLT_ARTICHOKE",
         Skins.CABBAGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2776,7 +2777,7 @@ public final class CultivationStacks {
         "Rip out it's HEART!"
     );
 
-    public static final SlimefunItemStack AUBERGINE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack AUBERGINE = LocalizedStacks.themed(
         "CLT_AUBERGINE",
         Skins.AUBERGINE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2785,7 +2786,7 @@ public final class CultivationStacks {
         "Better call it an eggplant, right?"
     );
 
-    public static final SlimefunItemStack ASPARAGUS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ASPARAGUS = LocalizedStacks.themed(
         "CLT_ASPARAGUS",
         Skins.ASPARAGUS.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2793,7 +2794,7 @@ public final class CultivationStacks {
         "Careful when visiting the bathroom later."
     );
 
-    public static final SlimefunItemStack BRUSSELS_SPROUTS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BRUSSELS_SPROUTS = LocalizedStacks.themed(
         "CLT_BRUSSELS_SPROUTS",
         Skins.KALE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2801,7 +2802,7 @@ public final class CultivationStacks {
         "A gassious delight."
     );
 
-    public static final SlimefunItemStack CABBAGE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CABBAGE = LocalizedStacks.themed(
         "CLT_CABBAGE",
         Skins.CABBAGE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2809,7 +2810,7 @@ public final class CultivationStacks {
         "A baggage of cabbage."
     );
 
-    public static final SlimefunItemStack CAULIFLOWER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CAULIFLOWER = LocalizedStacks.themed(
         "CLT_CAULIFLOWER",
         Skins.CAULIFLOWER.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2817,7 +2818,7 @@ public final class CultivationStacks {
         "A portable cloud!"
     );
 
-    public static final SlimefunItemStack CELERY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CELERY = LocalizedStacks.themed(
         "CLT_CELERY",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
@@ -2826,7 +2827,7 @@ public final class CultivationStacks {
         "me otherwise."
     );
 
-    public static final SlimefunItemStack KALE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack KALE = LocalizedStacks.themed(
         "CLT_KALE",
         Skins.KALE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2834,7 +2835,7 @@ public final class CultivationStacks {
         "Help, im a 2020 smoothie hipster!"
     );
 
-    public static final SlimefunItemStack SPINACH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SPINACH = LocalizedStacks.themed(
         "CLT_SPINACH",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
@@ -2842,7 +2843,7 @@ public final class CultivationStacks {
         "Wilted with love."
     );
 
-    public static final SlimefunItemStack BLACK_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BLACK_BEANS = LocalizedStacks.themed(
         "CLT_BLACK_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2850,7 +2851,7 @@ public final class CultivationStacks {
         "A delicious vegetarian protein."
     );
 
-    public static final SlimefunItemStack GREEN_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GREEN_BEANS = LocalizedStacks.themed(
         "CLT_GREEN_BEANS",
         new ItemStack(Material.FROGSPAWN),
         CultivationThemes.PRODUCE,
@@ -2858,7 +2859,7 @@ public final class CultivationStacks {
         "How creatively named!"
     );
 
-    public static final SlimefunItemStack CHICKPEAS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHICKPEAS = LocalizedStacks.themed(
         "CLT_CHICKPEAS",
         new ItemStack(Material.BEETROOT_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2866,7 +2867,7 @@ public final class CultivationStacks {
         "Black eyed peas can sing a tune, chickpeas can only hummus one."
     );
 
-    public static final SlimefunItemStack SOY_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SOY_BEANS = LocalizedStacks.themed(
         "CLT_SOY_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2874,7 +2875,7 @@ public final class CultivationStacks {
         "Soy milk cometh."
     );
 
-    public static final SlimefunItemStack PINTO_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PINTO_BEANS = LocalizedStacks.themed(
         "CLT_PINTO_BEANS",
         new ItemStack(Material.MELON_SEEDS),
         CultivationThemes.PRODUCE,
@@ -2882,7 +2883,7 @@ public final class CultivationStacks {
         "Kaching! It's burrito time."
     );
 
-    public static final SlimefunItemStack RUNNER_BEANS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RUNNER_BEANS = LocalizedStacks.themed(
         "CLT_RUNNER_BEANS",
         new ItemStack(Material.KELP),
         CultivationThemes.PRODUCE,
@@ -2890,7 +2891,7 @@ public final class CultivationStacks {
         "Always trying to get away."
     );
 
-    public static final SlimefunItemStack NETTLES = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack NETTLES = LocalizedStacks.themed(
         "CLT_NETTLES",
         new ItemStack(Material.AZALEA_LEAVES),
         CultivationThemes.PRODUCE,
@@ -2898,7 +2899,7 @@ public final class CultivationStacks {
         "Please put on your gloves before holding these."
     );
 
-    public static final SlimefunItemStack OKRA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack OKRA = LocalizedStacks.themed(
         "CLT_OKRA",
         Skins.LETTUCE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2906,7 +2907,7 @@ public final class CultivationStacks {
         "Grown alot in okra-homa... right, RIGHT?"
     );
 
-    public static final SlimefunItemStack LEEK = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LEEK = LocalizedStacks.themed(
         "CLT_LEEK",
         Skins.LEEK.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2915,7 +2916,7 @@ public final class CultivationStacks {
         "Perhaps it's sprung a leek?"
     );
 
-    public static final SlimefunItemStack SHALLOT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SHALLOT = LocalizedStacks.themed(
         "CLT_SHALLOT",
         Skins.ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2923,7 +2924,7 @@ public final class CultivationStacks {
         "I do love a lot of shallot."
     );
 
-    public static final SlimefunItemStack JALAPENO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack JALAPENO = LocalizedStacks.themed(
         "CLT_JALAPENO",
         Skins.PEPPERS.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2931,7 +2932,7 @@ public final class CultivationStacks {
         "HOT HOT HOT."
     );
 
-    public static final SlimefunItemStack RADICCHIO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RADICCHIO = LocalizedStacks.themed(
         "CLT_RADICCHIO",
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2940,7 +2941,7 @@ public final class CultivationStacks {
         "It's radicchio-less."
     );
 
-    public static final SlimefunItemStack RHUBARB = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RHUBARB = LocalizedStacks.themed(
         "CLT_RHUBARB",
         Skins.LEEK.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2948,7 +2949,7 @@ public final class CultivationStacks {
         "Just be sure to remove the leaves!"
     );
 
-    public static final SlimefunItemStack CELERIAC = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CELERIAC = LocalizedStacks.themed(
         "CLT_CELERIAC",
         Skins.PARSNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2957,7 +2958,7 @@ public final class CultivationStacks {
         "traditional recipes."
     );
 
-    public static final SlimefunItemStack PARSNIP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PARSNIP = LocalizedStacks.themed(
         "CLT_PARSNIP",
         Skins.PARSNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2965,7 +2966,7 @@ public final class CultivationStacks {
         "Requires roasting immediately."
     );
 
-    public static final SlimefunItemStack RUTABAGA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RUTABAGA = LocalizedStacks.themed(
         "CLT_RUTABAGA",
         Skins.RUTABAGA.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2973,7 +2974,7 @@ public final class CultivationStacks {
         "It actually hurts not calling this a swede."
     );
 
-    public static final SlimefunItemStack RADDISH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RADDISH = LocalizedStacks.themed(
         "CLT_RADDISH",
         Skins.RADDISH.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2981,7 +2982,7 @@ public final class CultivationStacks {
         "Little pockets of fresh, crisp, sunshine."
     );
 
-    public static final SlimefunItemStack SWEET_POTATO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SWEET_POTATO = LocalizedStacks.themed(
         "CLT_SWEET_POTATO",
         new ItemStack(Material.BEETROOT),
         CultivationThemes.PRODUCE,
@@ -2989,7 +2990,7 @@ public final class CultivationStacks {
         "Yam yam yam."
     );
 
-    public static final SlimefunItemStack TURNIP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TURNIP = LocalizedStacks.themed(
         "CLT_TURNIP",
         Skins.TURNIP.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -2997,7 +2998,7 @@ public final class CultivationStacks {
         "Will solve all of life's problems."
     );
 
-    public static final SlimefunItemStack SWEETCORN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SWEETCORN = LocalizedStacks.themed(
         "CLT_SWEETCORN",
         Skins.CORN.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3005,7 +3006,7 @@ public final class CultivationStacks {
         "Perhaps the best vegetable around."
     );
 
-    public static final SlimefunItemStack COURGETTE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COURGETTE = LocalizedStacks.themed(
         "CLT_COURGETTE",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
@@ -3014,7 +3015,7 @@ public final class CultivationStacks {
         "for depth and texture."
     );
 
-    public static final SlimefunItemStack CUCUMBER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CUCUMBER = LocalizedStacks.themed(
         "CLT_CUCUMBER",
         new ItemStack(Material.BAMBOO),
         CultivationThemes.PRODUCE,
@@ -3023,7 +3024,7 @@ public final class CultivationStacks {
         "wrong."
     );
 
-    public static final SlimefunItemStack MARROW = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MARROW = LocalizedStacks.themed(
         "CLT_MARROW",
         Skins.SQUASH.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3033,7 +3034,7 @@ public final class CultivationStacks {
         "Yup, Sefi Smort."
     );
 
-    public static final SlimefunItemStack AVOCADO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack AVOCADO = LocalizedStacks.themed(
         "CLT_AVOCADO",
         Skins.AVOCADO.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3041,7 +3042,7 @@ public final class CultivationStacks {
         "What hipsters dream about."
     );
 
-    public static final SlimefunItemStack GREEN_ONION = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GREEN_ONION = LocalizedStacks.themed(
         "CLT_GREEN_ONION",
         Skins.GREEN_ONION.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3049,7 +3050,7 @@ public final class CultivationStacks {
         "Goes great on tacos!"
     );
 
-    public static final SlimefunItemStack BLACK_PEPPER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BLACK_PEPPER = LocalizedStacks.themed(
         "CLT_PEPPER",
         Skins.BLACK_PEPPER.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3061,7 +3062,7 @@ public final class CultivationStacks {
 
     // region Crafted By Products
 
-    public static final SlimefunItemStack PEANUT_BUTTER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEANUT_BUTTER = LocalizedStacks.themed(
         "CLT_PEANUT_BUTTER",
         Skins.PEANUT_BUTTER.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3069,7 +3070,7 @@ public final class CultivationStacks {
         "Akin only to liquid gold."
     );
 
-    public static final SlimefunItemStack GRAPE_JELLY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GRAPE_JELLY = LocalizedStacks.themed(
         "CLT_GRAPE_JELLY",
         Skins.JAM_JAR_BLUE.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3077,7 +3078,7 @@ public final class CultivationStacks {
         "Eating it with a spoon is a criminal offence."
     );
 
-    public static final SlimefunItemStack STRAWBERRY_JELLY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack STRAWBERRY_JELLY = LocalizedStacks.themed(
         "CLT_STRAWBERRY_JELLY",
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3085,7 +3086,7 @@ public final class CultivationStacks {
         "Eating it with a spoon is a criminal offence."
     );
 
-    public static final SlimefunItemStack OIL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack OIL = LocalizedStacks.themed(
         "CLT_OIL",
         Skins.SPICE_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3093,7 +3094,7 @@ public final class CultivationStacks {
         "Oil. Need I say more?"
     );
 
-    public static final SlimefunItemStack MAYONNAISE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MAYONNAISE = LocalizedStacks.themed(
         "CLT_MAYONNAISE",
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
@@ -3101,7 +3102,7 @@ public final class CultivationStacks {
         "A silky smooth mayo that can go with nearly anything."
     );
 
-    public static final SlimefunItemStack EGG_SALAD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack EGG_SALAD = LocalizedStacks.themed(
         "CLT_EGG_SALAD",
         Skins.SPICE_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3109,7 +3110,7 @@ public final class CultivationStacks {
         "Open this on a train, I dare you!"
     );
 
-    public static final SlimefunItemStack PIE_CRUST = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PIE_CRUST = LocalizedStacks.themed(
         "CLT_PIE_CRUST",
         Skins.PIE_CRUST.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3118,7 +3119,7 @@ public final class CultivationStacks {
         "it'd be my main food source."
     );
 
-    public static final SlimefunItemStack PASTA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PASTA = LocalizedStacks.themed(
         "CLT_PASTA",
         Skins.PASTA.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3126,7 +3127,7 @@ public final class CultivationStacks {
         "Just plain pasta, simple yet wonderful."
     );
 
-    public static final SlimefunItemStack BISCUIT_DOUGH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BISCUIT_DOUGH = LocalizedStacks.themed(
         "CLT_BISCUIT_DOUGH",
         new ItemStack(Material.BROWN_DYE),
         CultivationThemes.PRODUCE,
@@ -3134,7 +3135,7 @@ public final class CultivationStacks {
         "Just remind yourself \"Don't eat it raw.\""
     );
 
-    public static final SlimefunItemStack BISCUIT_BASE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BISCUIT_BASE = LocalizedStacks.themed(
         "CLT_BISCUIT_BASE",
         new ItemStack(Material.OAK_TRAPDOOR),
         CultivationThemes.PRODUCE,
@@ -3143,7 +3144,7 @@ public final class CultivationStacks {
         "you can eat it raw."
     );
 
-    public static final SlimefunItemStack MEATBALLS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MEATBALLS = LocalizedStacks.themed(
         "CLT_MEATBALLS",
         new ItemStack(Material.BROWN_DYE),
         CultivationThemes.PRODUCE,
@@ -3151,7 +3152,7 @@ public final class CultivationStacks {
         "Balls of meat, who'd-a-thunk it."
     );
 
-    public static final SlimefunItemStack PEPPERONI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PEPPERONI = LocalizedStacks.themed(
         "CLT_PEPPERONI",
         Skins.PEPPERONI.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3159,7 +3160,7 @@ public final class CultivationStacks {
         "I could eat an entire log of this, easy."
     );
 
-    public static final SlimefunItemStack DOUGH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack DOUGH = LocalizedStacks.themed(
         "CLT_DOUGH",
         Skins.DOUGH.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3167,7 +3168,7 @@ public final class CultivationStacks {
         "Just plain ol' dough!"
     );
 
-    public static final SlimefunItemStack CREAM_CHEESE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CREAM_CHEESE = LocalizedStacks.themed(
         "CLT_CREAM_CHEESE",
         new ItemStack(Material.MILK_BUCKET),
         CultivationThemes.PRODUCE,
@@ -3175,7 +3176,7 @@ public final class CultivationStacks {
         "More creamy than cheesy."
     );
 
-    public static final SlimefunItemStack KETCHUP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack KETCHUP = LocalizedStacks.themed(
         "CLT_KETCHUP",
         Skins.JAM_JAR_RED.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3183,7 +3184,7 @@ public final class CultivationStacks {
         "Just tomatoes in a creamy form."
     );
 
-    public static final SlimefunItemStack MUSTARD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MUSTARD = LocalizedStacks.themed(
         "CLT_MUSTARD",
         Skins.JAM_JAR_YELLOW.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3191,7 +3192,7 @@ public final class CultivationStacks {
         "Has a little kick to it!"
     );
 
-    public static final SlimefunItemStack TORTILLAS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TORTILLAS = LocalizedStacks.themed(
         "CLT_TORTILLAS",
         Skins.TORILLAS.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3199,7 +3200,7 @@ public final class CultivationStacks {
         "Corn-flour delights"
     );
 
-    public static final SlimefunItemStack PICO_DE_GALLO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PICO_DE_GALLO = LocalizedStacks.themed(
         "CLT_PICO_DE_GALLO",
         Skins.SALSA.getPlayerHead(),
         CultivationThemes.PRODUCE,
@@ -3207,7 +3208,7 @@ public final class CultivationStacks {
         "A mild salsa full of pure delicious."
     );
 
-    public static final SlimefunItemStack COOKED_BURGER_PATTY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COOKED_BURGER_PATTY = LocalizedStacks.themed(
         "CLT_COOKED_BURGER_PATTY",
         new ItemStack(Material.COOKED_BEEF),
         CultivationThemes.PRODUCE,
@@ -3219,7 +3220,7 @@ public final class CultivationStacks {
 
     // region Finished Foods
 
-    public static final SlimefunItemStack FOOD_PEANUT_BUTTER_JELLY_SANDWICH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack FOOD_PEANUT_BUTTER_JELLY_SANDWICH = LocalizedStacks.themed(
         "CLT_PEANUT_BUTTER_JELLY_SANDWICH",
         Skins.PEANUT_BUTTER_JELLY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3230,7 +3231,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Power + 3")
     );
 
-    public static final SlimefunItemStack EGG_SALAD_SANDWICH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack EGG_SALAD_SANDWICH = LocalizedStacks.themed(
         "CLT_EGG_SALAD_SANDWICH",
         Skins.CHEESY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3241,7 +3242,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 2")
     );
 
-    public static final SlimefunItemStack BACON_SANDWICH = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BACON_SANDWICH = LocalizedStacks.themed(
         "CLT_BACON_SANDWICH",
         Skins.MEATY_SANDWICH.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3253,7 +3254,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
     );
 
-    public static final SlimefunItemStack SALMON_NIGIRI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SALMON_NIGIRI = LocalizedStacks.themed(
         "CLT_SALMON_NIGIRI",
         Skins.SUSHI_SALMON.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3264,7 +3265,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 1")
     );
 
-    public static final SlimefunItemStack CAJUN_GARLIC_BUTTER_COD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CAJUN_GARLIC_BUTTER_COD = LocalizedStacks.themed(
         "CLT_CAJUN_GARLIC_BUTTER_COD",
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3276,7 +3277,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
     );
 
-    public static final SlimefunItemStack SHAKSHUKA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SHAKSHUKA = LocalizedStacks.themed(
         "CLT_SHAKSHUKA",
         Skins.SHAKSHUKA.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3288,7 +3289,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Luck + 1")
     );
 
-    public static final SlimefunItemStack FUGU = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack FUGU = LocalizedStacks.themed(
         "CLT_FUGU",
         Skins.SUSHI_TUNA.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3300,7 +3301,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "33% Chance to just die!")
     );
 
-    public static final SlimefunItemStack SHEPHERDS_PIE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SHEPHERDS_PIE = LocalizedStacks.themed(
         "CLT_SHEPHERDS_PIE",
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3311,7 +3312,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 2")
     );
 
-    public static final SlimefunItemStack CHICKEN_POT_PIE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHICKEN_POT_PIE = LocalizedStacks.themed(
         "CLT_CHICKEN_POT_PIE",
         Skins.PIE_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3323,7 +3324,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Saturation + 1")
     );
 
-    public static final SlimefunItemStack CHICKEN_PASTA_BAKE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHICKEN_PASTA_BAKE = LocalizedStacks.themed(
         "CLT_CHICKEN_PASTA_BAKE",
         Skins.PASTA_BAKE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3335,7 +3336,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Water Breathing + 1")
     );
 
-    public static final SlimefunItemStack CHICKEN_ALFREDO_MAC_AND_CHEESE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHICKEN_ALFREDO_MAC_AND_CHEESE = LocalizedStacks.themed(
         "CLT_CHICKEN_ALFREDO_MAC_AND_CHEESE",
         Skins.MAC_AND_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3347,7 +3348,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Damage Resistance + 3")
     );
 
-    public static final SlimefunItemStack KEY_LIME_PIE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack KEY_LIME_PIE = LocalizedStacks.themed(
         "CLT_KEY_LIME_PIE",
         Skins.PIE_LIME.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3358,7 +3359,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 4")
     );
 
-    public static final SlimefunItemStack FRUIT_SALAD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack FRUIT_SALAD = LocalizedStacks.themed(
         "CLT_FRUIT_SALAD",
         Skins.FRUIT_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3370,7 +3371,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 3")
     );
 
-    public static final SlimefunItemStack CAESAR_SALAD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CAESAR_SALAD = LocalizedStacks.themed(
         "CLT_CAESAR_SALAD",
         Skins.FRUIT_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3383,7 +3384,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 3", "Slow Falling + 1")
     );
 
-    public static final SlimefunItemStack BISCUIT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BISCUIT = LocalizedStacks.themed(
         "CLT_BISCUIT",
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
@@ -3393,7 +3394,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
     );
 
-    public static final SlimefunItemStack COMPRESSED_BISCUIT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack COMPRESSED_BISCUIT = LocalizedStacks.themed(
         "CLT_COMPRESSED_BISCUIT",
         new ItemStack(Material.COOKIE),
         CultivationThemes.FOOD,
@@ -3403,7 +3404,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Launches you into the air")
     );
 
-    public static final SlimefunItemStack LEMON_DROP = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LEMON_DROP = LocalizedStacks.themed(
         "CLT_LEMON_DROP",
         new ItemStack(Material.YELLOW_DYE),
         CultivationThemes.FOOD,
@@ -3413,7 +3414,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Clears all effects and makes you hungry again.")
     );
 
-    public static final SlimefunItemStack GRILLED_SALMON_SALAD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GRILLED_SALMON_SALAD = LocalizedStacks.themed(
         "CLT_GRILLED_SALMON_SALAD",
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3425,7 +3426,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Health Boost + 5")
     );
 
-    public static final SlimefunItemStack WITHER_ROSE_SALAD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack WITHER_ROSE_SALAD = LocalizedStacks.themed(
         "CLT_WITHER_ROSE_SALAD",
         Skins.MEAL_SALAD.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3437,7 +3438,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Wither + 2")
     );
 
-    public static final SlimefunItemStack ORANGE_JUICE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack ORANGE_JUICE = LocalizedStacks.themed(
         "CLT_ORANGE_JUICE",
         ItemStackGenerators.createPotion(Color.YELLOW),
         CultivationThemes.FOOD,
@@ -3447,7 +3448,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 4")
     );
 
-    public static final SlimefunItemStack LASAGNA = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack LASAGNA = LocalizedStacks.themed(
         "CLT_LASAGNA",
         Skins.MEAL_YELLOW_RED_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3459,7 +3460,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Damage Reduction + 1")
     );
 
-    public static final SlimefunItemStack SPAGHETTI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SPAGHETTI = LocalizedStacks.themed(
         "CLT_SPAGHETTI",
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3469,7 +3470,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Healing", "1 Heart")
     );
 
-    public static final SlimefunItemStack SPAGHETTI_AND_MEATBALLS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SPAGHETTI_AND_MEATBALLS = LocalizedStacks.themed(
         "CLT_SPAGHETTI_AND_MEATBALLS",
         Skins.SPAGHETTI.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3480,7 +3481,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Bad Omen + 1")
     );
 
-    public static final SlimefunItemStack PIZZA_CHEESE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PIZZA_CHEESE = LocalizedStacks.themed(
         "CLT_PIZZA_CHEESE",
         Skins.PIZZA_CHEESE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3491,7 +3492,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Slowness + 1")
     );
 
-    public static final SlimefunItemStack PIZZA_MUSHROOM = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PIZZA_MUSHROOM = LocalizedStacks.themed(
         "CLT_PIZZA_MUSHROOM",
         Skins.PIZZA_MUSHROOM.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3503,7 +3504,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Haste + 2")
     );
 
-    public static final SlimefunItemStack PIZZA_PEPPERONI = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PIZZA_PEPPERONI = LocalizedStacks.themed(
         "CLT_PIZZA_PEPPERONI",
         Skins.PIZZA_PEPPERONI.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3516,7 +3517,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Jump + 1")
     );
 
-    public static final SlimefunItemStack CHEESY_SCALLOPED_COURGETTE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHEESY_SCALLOPED_COURGETTE = LocalizedStacks.themed(
         "CLT_CHEESY_SCALLOPED_COURGETTE",
         Skins.MEAL_RED_GREEN_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3528,7 +3529,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Invisibility + 1")
     );
 
-    public static final SlimefunItemStack PECAN_PIE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack PECAN_PIE = LocalizedStacks.themed(
         "CLT_PECAN_PIE",
         Skins.PIE_BROWN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3540,7 +3541,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Levitation + 1")
     );
 
-    public static final SlimefunItemStack GARLIC_BUTTER_MUSHROOMS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack GARLIC_BUTTER_MUSHROOMS = LocalizedStacks.themed(
         "CLT_GARLIC_BUTTER_MUSHROOMS",
         new ItemStack(Material.MUSHROOM_STEW),
         CultivationThemes.FOOD,
@@ -3551,7 +3552,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Glowing + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_BEEF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_BEEF = LocalizedStacks.themed(
         "CLT_RAMEN_BEEF",
         Skins.RAMEN_BEEF.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3561,7 +3562,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_CHICKEN = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_CHICKEN = LocalizedStacks.themed(
         "CLT_RAMEN_CHICKEN",
         Skins.RAMEN_CHICKEN.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3571,7 +3572,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_SEAFOOD = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_SEAFOOD = LocalizedStacks.themed(
         "CLT_RAMEN_SEAFOOD",
         Skins.RAMEN_SEAFOOD.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3581,7 +3582,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_BEEF_HEARTY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_BEEF_HEARTY = LocalizedStacks.themed(
         "CLT_RAMEN_BEEF_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3593,7 +3594,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_CHICKEN_HEARTY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_CHICKEN_HEARTY = LocalizedStacks.themed(
         "CLT_RAMEN_CHICKEN_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3605,7 +3606,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
     );
 
-    public static final SlimefunItemStack RAMEN_SEAFOOD_HEARTY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack RAMEN_SEAFOOD_HEARTY = LocalizedStacks.themed(
         "CLT_RAMEN_SEAFOOD_HEARTY",
         Skins.RAMEN_HEARTY.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3617,7 +3618,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Speed + 1")
     );
 
-    public static final SlimefunItemStack BAGEL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BAGEL = LocalizedStacks.themed(
         "CLT_BAGEL",
         Skins.BAGEL.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3627,7 +3628,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Healing", "5")
     );
 
-    public static final SlimefunItemStack BAGEL_BITE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BAGEL_BITE = LocalizedStacks.themed(
         "CLT_BAGEL_BITE",
         Skins.BAGEL_BITE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3637,7 +3638,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Burns your mouth with every bite!")
     );
 
-    public static final SlimefunItemStack BAGEL_CREAM_CHEESE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BAGEL_CREAM_CHEESE = LocalizedStacks.themed(
         "CLT_BAGEL_CREAM_CHEESE",
         Skins.BAGEL_EVERYTHING.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3648,7 +3649,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Health Boost + 1")
     );
 
-    public static final SlimefunItemStack MEATLOAF = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack MEATLOAF = LocalizedStacks.themed(
         "CLT_MEATLOAF",
         Skins.MEATLOAF.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3662,7 +3663,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 4", "Slowness + 2")
     );
 
-    public static final SlimefunItemStack SAUSAGE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SAUSAGE = LocalizedStacks.themed(
         "CLT_SAUSAGE",
         Skins.SAUSAGE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3672,7 +3673,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Healing", "2")
     );
 
-    public static final SlimefunItemStack SOYLENT = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SOYLENT = LocalizedStacks.themed(
         "CLT_SOYLENT",
         ItemStackGenerators.createPotion(Color.WHITE),
         CultivationThemes.FOOD,
@@ -3683,7 +3684,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Weakness + 4")
     );
 
-    public static final SlimefunItemStack TATER_TOTS = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TATER_TOTS = LocalizedStacks.themed(
         "CLT_TATER_TOTS",
         Skins.TATER_TOT.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3694,7 +3695,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Speed + 2")
     );
 
-    public static final SlimefunItemStack SWEET_BEEHIVE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SWEET_BEEHIVE = LocalizedStacks.themed(
         "CLT_SWEET_BEEHIVE",
         Skins.BEEHIVE.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3704,7 +3705,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Summons some bees!")
     );
 
-    public static final SlimefunItemStack TAQUITO = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack TAQUITO = LocalizedStacks.themed(
         "CLT_TAQUITO",
         Skins.TAQUITO.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3715,7 +3716,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Summons Gir to help (It's an Iron Golem, relax).")
     );
 
-    public static final SlimefunItemStack BOWL_OF_STEVE = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BOWL_OF_STEVE = LocalizedStacks.themed(
         "CLT_BOWL_OF_STEVE",
         Skins.STEVE_HEAD_BOWL.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3728,7 +3729,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 4", "Damage + 10")
     );
 
-    public static final SlimefunItemStack CHEESE_BURGER = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CHEESE_BURGER = LocalizedStacks.themed(
         "CLT_CHEESE_BURGER",
         Skins.BURGER.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3739,7 +3740,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Regen + 3")
     );
 
-    public static final SlimefunItemStack CINNAMON_ROLL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack CINNAMON_ROLL = LocalizedStacks.themed(
         "CLT_CINNAMON_ROLL",
         Skins.CINNAMON_ROLL.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3752,7 +3753,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 2", "Slow Falling + 1")
     );
 
-    public static final SlimefunItemStack BLUE_CANDY = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack BLUE_CANDY = LocalizedStacks.themed(
         "CLT_BLUE_CANDY",
         Skins.BLUE_CANDY.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3762,7 +3763,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Spawns an Allay")
     );
 
-    public static final SlimefunItemStack SOFT_BOILED_EGG = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SOFT_BOILED_EGG = LocalizedStacks.themed(
         "CLT_SOFT_BOILED_EGG",
         Skins.BOILED_EGG.getPlayerHead(),
         CultivationThemes.FOOD,
@@ -3773,7 +3774,7 @@ public final class CultivationStacks {
         Theme.CLICK_INFO.asTitle("Effect 1", "Can sometimes call a chicken to your aid.")
     );
 
-    public static final SlimefunItemStack SUGARED_SKULL = Theme.themedSlimefunItemStack(
+    public static final SlimefunItemStack SUGARED_SKULL = LocalizedStacks.themed(
         "CLT_SUGARED_SKULL",
         Skins.SUGARED_SKULL.getPlayerHead(),
         CultivationThemes.FOOD,

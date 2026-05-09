@@ -6,7 +6,6 @@ import dev.sefiraat.cultivation.implementation.utils.Keys;
 import io.github.bakedlibs.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.papermc.lib.PaperLib;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -37,7 +36,7 @@ public class NothingPlant extends CultivationPlant {
             PlantTheme theme = growth.getTheme();
             if (theme != null) {
                 PlayerHead.setSkin(block, theme.getSeed().getPlayerSkin(), false);
-                PaperLib.getBlockState(block, false).getState().update(true, false);
+                block.getState().update(true, false);
                 BlockStorage.addBlockInfo(block, Keys.FLORA_GROWTH_STAGE, String.valueOf(growthStage));
                 growthDisplay(block.getLocation());
             }

@@ -52,7 +52,8 @@ public class CultivationCommands extends BaseCommand {
 
     @Default
     public void onDefault(CommandSender sender) {
-        sender.sendMessage(Theme.ERROR + "Please provide a valid subcommand.");
+        sender.sendMessage(Theme.ERROR + Cultivation.getLanguageManager().get(
+            "command.invalid_subcommand", "Please provide a valid subcommand."));
     }
 
     //TODO apply permissions
@@ -63,7 +64,8 @@ public class CultivationCommands extends BaseCommand {
             Registry.getInstance().addPositionOne(player);
             System.out.println("pos1 set");
         } else {
-            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "Must be executed by a player"));
+            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING,
+                Cultivation.getLanguageManager().get("command.player_only", "Must be executed by a player")));
         }
     }
 
@@ -74,7 +76,8 @@ public class CultivationCommands extends BaseCommand {
             Registry.getInstance().addPositionTwo(player);
             System.out.println("pos2 set");
         } else {
-            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING, "Must be executed by a player"));
+            sender.sendMessage(Theme.applyThemeToString(Theme.WARNING,
+                Cultivation.getLanguageManager().get("command.player_only", "Must be executed by a player")));
         }
     }
 
@@ -245,33 +248,39 @@ public class CultivationCommands extends BaseCommand {
     public void packPeek(CommandSender sender) {
         if (sender instanceof Player player) {
             ItemStack itemStack = player.getInventory().getItemInMainHand();
+            String mustHold = Cultivation.getLanguageManager().get(
+                "command.packpeek.must_hold", "You must be holding a Seed Pack for this");
             if (itemStack == null || itemStack.getType().isAir()) {
-                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                player.sendMessage(Theme.WARNING.apply(mustHold));
                 return;
             }
 
             SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
             if (!(slimefunItem instanceof SeedPack pack)) {
-                player.sendMessage(Theme.WARNING.apply("You must be holding a Seed Pack for this"));
+                player.sendMessage(Theme.WARNING.apply(mustHold));
                 return;
             }
 
             ItemMeta itemMeta = itemStack.getItemMeta();
             SeedPackInstance instance = PersistentDataAPI.get(itemMeta, SeedPackDataType.KEY, SeedPackDataType.TYPE);
             if (instance == null) {
-                player.sendMessage(Theme.WARNING.apply("This pack is empty!"));
+                player.sendMessage(Theme.WARNING.apply(Cultivation.getLanguageManager().get(
+                    "command.packpeek.empty", "This pack is empty!")));
                 return;
             }
 
             player.sendMessage("------------------------------------");
-            player.sendMessage("Contents");
+            player.sendMessage(Cultivation.getLanguageManager().get("command.packpeek.contents", "Contents"));
             player.sendMessage("------------------------------------");
+            String levelLabel = Cultivation.getLanguageManager().get("command.packpeek.level", "Lv");
+            String speedLabel = Cultivation.getLanguageManager().get("command.packpeek.speed", "Sp");
+            String strengthLabel = Cultivation.getLanguageManager().get("command.packpeek.strength", "St");
             for (Map.Entry<FloraLevelProfile, Integer> entry : instance.getAmountMap().entrySet()) {
                 FloraLevelProfile profile = entry.getKey();
                 String neatKey =
-                    " Lv: " + profile.getLevel() +
-                    " Sp: " + profile.getSpeed() +
-                    " St: " + profile.getStrength();
+                    " " + levelLabel + ": " + profile.getLevel() +
+                    " " + speedLabel + ": " + profile.getSpeed() +
+                    " " + strengthLabel + ": " + profile.getStrength();
                 player.sendMessage(Theme.CLICK_INFO.asTitle(neatKey, entry.getValue()));
             }
         }

@@ -28,7 +28,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.papermc.lib.PaperLib;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Color;
@@ -245,7 +244,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
 
         cloneBlock.setType(Material.PLAYER_HEAD);
         PlayerHead.setSkin(cloneBlock, theme.getSeed().getPlayerSkin(), false);
-        PaperLib.getBlockState(cloneBlock, false).getState().update(true, false);
+        cloneBlock.getState().update(true, false);
         BlockStorage.store(cloneBlock, childSeed.getId());
         BlockStorage.addBlockInfo(cloneBlock, Keys.FLORA_GROWTH_STAGE, "0");
         BlockStorage.addBlockInfo(cloneBlock, Keys.FLORA_OWNER, owner.toString());
@@ -260,7 +259,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
     }
 
     protected void breedSuccess(@Nonnull Location location) {
-        ParticleUtils.displayParticleRandomly(LocationUtils.centre(location), Particle.SLIME, 0.5, 4);
+        ParticleUtils.displayParticleRandomly(LocationUtils.centre(location), Particle.ITEM_SLIME, 0.5, 4);
     }
 
     /**

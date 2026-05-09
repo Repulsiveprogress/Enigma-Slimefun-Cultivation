@@ -1,10 +1,11 @@
 name: Cultivation
-author: Sefiraat, J3fftw, JustAHuman
-description: A Spiritual Successor to ExoticGarden
+author: Sefiraat, J3fftw, JustAHuman, EnigmaticMP
+description: A Spiritual Successor to ExoticGarden — EnigmaticMP fork for Minecraft 26.1.2
 main: dev.sefiraat.cultivation.Cultivation
-website: https://github.com/Sefiraat/Cultivation
+website: https://github.com/Repulsiveprogress/Enigma-Slimefun4-new
 version: ${project.version}
-api-version: 1.19
+api-version: '1.21'
+folia-supported: false
 depend:
   - Slimefun
 commands:

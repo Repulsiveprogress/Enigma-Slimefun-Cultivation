@@ -1,2 +1,7 @@
 auto-update: true
 debug-messages: false
+
+# Language for in-game text. Built-in: en, ru.
+# Community translations: drop a file plugins/Cultivation/lang/<code>.yml and set the code below.
+# Missing keys fall back to English, then to the original built-in text.
+language: en

@@ -14,7 +14,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.items.settings.DoubleRangeSetting;
 import io.github.thebusybiscuit.slimefun4.api.items.settings.IntRangeSetting;
-import io.papermc.lib.PaperLib;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -108,7 +107,7 @@ public class HarvestablePlant extends CultivationPlant implements CultivationHar
             PlantTheme theme = growth.getTheme();
             if (theme != null) {
                 PlayerHead.setSkin(block, theme.getSeed().getPlayerSkin(), false);
-                PaperLib.getBlockState(block, false).getState().update(true, false);
+                block.getState().update(true, false);
                 growthDisplay(block.getLocation());
             }
         } else if (growthStage == 1) {

@@ -2,18 +2,37 @@
 <img width="500" src="https://user-images.githubusercontent.com/20646323/231161480-7b6bd303-cec9-4555-aa40-5c502aaa031b.png"><br><br>
 </p>
 
+> **EnigmaticMP Fork** — ported to Minecraft 26.1.2 / Paper 26.1.2 / Java 21 with built-in Russian localisation.
+> Original addon by [Sefiraat](https://github.com/Sefiraat/Cultivation). Fork repo: <https://github.com/Repulsiveprogress/Enigma-Slimefun4-new>
+
 Cultivation is a Slimefun4 addon that adds a plethora of plants, bushes and trees to Minecraft as well as an amazing food selection to be made via a unique, fully featured, kitchen!
-Using 1.19.4's amazing, new, DisplayEntites we are able to display plants and blocks like you've never seen before.
+Using Display Entities we are able to display plants and blocks like you've never seen before.
 
 ## Download Cultivation
 
-[![Build Status](https://thebusybiscuit.github.io/builds/Sefiraat/Cultivation/main/badge.svg)](https://thebusybiscuit.github.io/builds/Sefiraat/Cultivation/main)
+You can find a fuller guide to Cultivation by reading the [Documentation Pages](https://sefiraat.dev)
 
-You can find a fuller guide to Cultivation by reading my [Documentation Pages](https://sefiraat.dev)
-
-Please note, this addon makes use of 1.19.4' display entities which, as the name suggests, are Entities. These entities do not tick and do not add a performance over head to your server however some lag clearing plugins may be set to remove them. Be sure to add **BLOCK_DISPLAY**, **ITEM_DISPLAY** and **TEXT_DISPLAY** to your exclusions list otherwise you may encounter errors within the addon.
+Please note, this addon makes use of Display Entities which, as the name suggests, are Entities. These entities do not tick and do not add a performance overhead to your server however some lag clearing plugins may be set to remove them. Be sure to add **BLOCK_DISPLAY**, **ITEM_DISPLAY** and **TEXT_DISPLAY** to your exclusions list otherwise you may encounter errors within the addon.
 
 <img width="1047" alt="image" src="https://user-images.githubusercontent.com/20646323/231163325-3749560b-f998-4399-8a60-a4bb5c0b6fcd.png">
+
+## Localisation
+
+After first launch, the following files are created:
+
+```
+plugins/Cultivation/config.yml
+plugins/Cultivation/lang/en.yml
+plugins/Cultivation/lang/ru.yml
+```
+
+Set your language in `config.yml`:
+
+```yaml
+language: ru   # en | ru | <custom>
+```
+
+**Adding a community translation:** copy `lang/en.yml` to `lang/<code>.yml`, translate the values, set `language: <code>` and restart. Missing keys fall back to English automatically. To share your translation, open a PR adding `src/main/resources/lang/<code>.yml` to the fork repo.
 
 ## Cultivation Plants
 
@@ -82,4 +101,4 @@ Another big shoutout to GentlemanCheesy who creates some of the skulls used in t
 
 And lastly, a big thanks goes to https://minecraft-heads.com who kindly gave their permission to utilise heads they've procured within our addon.
 
-[![](https://minecraft-heads.com/images/banners/minecraft-heads_fullbanner_468x60.png)](https://minecraft-heads.com/) 
+[![](https://minecraft-heads.com/images/banners/minecraft-heads_fullbanner_468x60.png)](https://minecraft-heads.com/)

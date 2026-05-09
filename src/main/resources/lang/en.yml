@@ -1,0 +1,1441 @@
+# Cultivation language file (English) — source of truth for fallback.
+# Keys: items.<ITEM_ID>.name and items.<ITEM_ID>.lore
+
+command:
+  invalid_subcommand: "Please provide a valid subcommand."
+  player_only: "Must be executed by a player"
+  packpeek:
+    must_hold: "You must be holding a Seed Pack for this"
+    empty: "This pack is empty!"
+    contents: "Contents"
+    level: "Lv"
+    speed: "Sp"
+    strength: "St"
+
+items:
+  CLT_TREE_BANANA:
+    name: "Cultivation Tree: Banana"
+    lore:
+      - "A tree that grows fingers, grim!"
+  CLT_TREE_LEMON:
+    name: "Cultivation Tree: Lemon"
+    lore:
+      - Just looking at this tree taste sour.
+  CLT_TREE_ORANGE:
+    name: "Cultivation Tree: Orange"
+    lore:
+      - Little orbs of sunshine.
+  CLT_TREE_GREEN_APPLE:
+    name: "Cultivation Tree: Green Apple"
+    lore:
+      - Grows large and crisp green apples.
+  CLT_TREE_PINEAPPLE:
+    name: "Cultivation Tree: Pineapple"
+    lore:
+      - "WHERE IS MY PIZZA?"
+  CLT_TREE_MANGO:
+    name: "Cultivation Tree: Mango"
+    lore:
+      - "Best when at it's ripest."
+  CLT_TREE_PEACH:
+    name: "Cultivation Tree: Peach"
+    lore:
+      - "James was looking for this, I think?"
+  CLT_TREE_APRICOT:
+    name: "Cultivation Tree: Apricot"
+    lore:
+      - Inside is a single pit of despair.
+  CLT_TREE_PEAR:
+    name: "Cultivation Tree: Pear"
+    lore:
+      - A Pair of Pears were paired for parity.
+  CLT_TREE_CHERRY:
+    name: "Cultivation Tree: Cherry"
+    lore:
+      - "Tie the knot!"
+  CLT_TREE_KIWI:
+    name: "Cultivation Tree: Kiwi"
+    lore:
+      - "A New Zealand Tree? Have I got that right?"
+  CLT_TREE_LIME:
+    name: "Cultivation Tree: Lime"
+    lore:
+      - "Did you know Limes are just Lemons holding their breath?"
+  CLT_TREE_CHESTNUT:
+    name: "Cultivation Tree: Chestnut"
+    lore:
+      - A tree clearly designed to be climbed.
+  CLT_TREE_HAZELNUT:
+    name: "Cultivation Tree: Hazelnut"
+    lore:
+      - Shaking this tree is a childhood past-time.
+  CLT_TREE_PECAN:
+    name: "Cultivation Tree: Pecan"
+    lore:
+      - "Can we grow this tree? Yes pe-can!"
+  CLT_BUSH_GRAPE:
+    name: "Cultivation Bush: Grape"
+    lore:
+      - Ripe and juicy grapes that practically fall
+      - off the bush.
+  CLT_BUSH_PEANUTS:
+    name: "Cultivation Bush: Peanuts"
+    lore:
+      - Solid and fragrant and full of protein.
+  CLT_BUSH_STRAWBERRY:
+    name: "Cultivation Bush: Strawberry"
+    lore:
+      - Solid and fragrant and full of protein.
+  CLT_BUSH_RICE:
+    name: "Cultivation Bush: Rice"
+    lore:
+      - The ultimate staple food.
+  CLT_BUSH_GARLIC:
+    name: "Cultivation Bush: Garlic"
+    lore:
+      - This bush has simply the worst breath.
+  CLT_BUSH_CAYENNE_PEPPER:
+    name: "Cultivation Bush: Cayenne Pepper"
+    lore:
+      - A bush with a peppery attitude.
+  CLT_BUSH_TOMATO:
+    name: "Cultivation Bush: Tomato"
+    lore:
+      - Ripe and ready.
+  CLT_BUSH_BELL_PEPPER:
+    name: "Cultivation Bush: Bell Pepper"
+    lore:
+      - "Careful walking by this, you may ring"
+      - the bell.
+  CLT_BUSH_ONION:
+    name: "Cultivation Bush: Onion"
+    lore:
+      - "Does this bush look like it's tearing up?"
+  CLT_BUSH_PEA:
+    name: "Cultivation Bush: Peas"
+    lore:
+      - "I prefer Q's"
+  CLT_BUSH_RAPESEED:
+    name: "Cultivation Bush: Rapeseed"
+    lore:
+      - This bush is exuding some oily substance.
+  CLT_BUSH_LETTUCE:
+    name: "Cultivation Bush: Lettuce"
+    lore:
+      - "Does lettuce even grow on bushes?"
+      - "Spoiler: No, it doesn't."
+  CLT_BUSH_MUSTARD:
+    name: "Cultivation Bush: Mustard Seeds"
+    lore:
+      - Like fire in your mouth.
+  CLT_BUSH_BROCCOLI:
+    name: "Cultivation Bush: Broccoli"
+    lore:
+      - "Tiny trees you can eat? Who invented this!?"
+  CLT_BUSH_CINNAMON:
+    name: "Cultivation Bush: Cinnamon"
+    lore:
+      - A delightfully fragrant bush.
+  CLT_BUSH_BASIL:
+    name: "Cultivation Bush: Basil"
+    lore:
+      - A light hearted bush full of whimsy.
+  CLT_BUSH_BAY_LEAF:
+    name: "Cultivation Bush: Bay Leaf"
+    lore:
+      - The smell of this bush travels for miles.
+  CLT_BUSH_CILANTRO:
+    name: "Cultivation Bush: Cilantro"
+    lore:
+      - A faint citrus and spice smell comes from this bush.
+  CLT_BUSH_CHICORY:
+    name: "Cultivation Bush: Chicory"
+    lore:
+      - "I thought chicory was a root? Does this addon"
+      - "even do it's research!?"
+  CLT_BUSH_CHIVES:
+    name: "Cultivation Bush: Chives"
+    lore:
+      - "A bush that produces what is, effectively, the world's"
+      - smallest onion.
+  CLT_BUSH_CLOVE:
+    name: "Cultivation Bush: Clove"
+    lore:
+      - A bush that just reminds me of Christmas.
+  CLT_BUSH_CUMIN:
+    name: "Cultivation Bush: Cumin"
+    lore:
+      - A bush that lets of a warm citrus aroma.
+  CLT_BUSH_CHILLI_PEPPER:
+    name: "Cultivation Bush: Chilli Pepper"
+    lore:
+      - Just looking at this bush burns my tongue.
+  CLT_BUSH_CURRY_LEAF:
+    name: "Cultivation Bush: Curry Leaf"
+    lore:
+      - Best when dry roasted.
+  CLT_BUSH_DILL:
+    name: "Cultivation Bush: Dill"
+    lore:
+      - This bush grows much faster than others.
+  CLT_BUSH_FENNEL:
+    name: "Cultivation Bush: Fennel"
+    lore:
+      - "Why does this bush repel bugs!?"
+  CLT_BUSH_GINGER:
+    name: "Cultivation Bush: Ginger"
+    lore:
+      - This bush is nice when boiled whole.
+  CLT_BUSH_HORSERADISH:
+    name: "Cultivation Bush: Horseradish"
+    lore:
+      - "Again, this growing on a bush just doesn't make sense."
+  CLT_BUSH_JASMINE:
+    name: "Cultivation Bush: Jasmine"
+    lore:
+      - The scent from this bush is so soft and mellow.
+  CLT_BUSH_JUNIPER_BERRY:
+    name: "Cultivation Bush: Juniper Berry"
+    lore:
+      - "So sweet on the bush, peppery when dried."
+  CLT_BUSH_KAFFIR_LIME:
+    name: "Cultivation Bush: Kaffir Lime"
+    lore:
+      - "A bush whose leafs are more wanted than it's fruit."
+  CLT_BUSH_LAVENDER:
+    name: "Cultivation Bush: Lavender"
+    lore:
+      - "This bush wafts it's smell everywhere."
+  CLT_BUSH_LICORICE:
+    name: "Cultivation Bush: Licorice"
+    lore:
+      - Gross
+  CLT_BUSH_MACE:
+    name: "Cultivation Bush: Mace"
+    lore:
+      - "This bush seems to be repelling attackers?"
+  CLT_BUSH_MARJORAM:
+    name: "Cultivation Bush: Marjoram"
+    lore:
+      - A large woody smelling bush.
+  CLT_BUSH_MINT:
+    name: "Cultivation Bush: Mint"
+    lore:
+      - Simply the best smelling bush.
+  CLT_BUSH_OREGANO:
+    name: "Cultivation Bush: Oregano"
+    lore:
+      - This pungent smelling bush deters visitors.
+  CLT_BUSH_PARSLEY:
+    name: "Cultivation Bush: Parsley"
+    lore:
+      - "Throw this bush in lava, now :D"
+  CLT_BUSH_ROSEMARY:
+    name: "Cultivation Bush: Rosemary"
+    lore:
+      - A bush whose smell reminds people of sunday lunches.
+  CLT_BUSH_SASSAFRAS:
+    name: "Cultivation Bush: Sassafras"
+    lore:
+      - This bush love to be planted near small bodies
+      - of water.
+  CLT_BUSH_SHISO:
+    name: "Cultivation Bush: Shiso"
+    lore:
+      - I like to think this bush is the love child
+      - of a mint bush and a basil bush. Too bad
+      - "bush breeding isn't a thing!"
+  CLT_BUSH_STAR_ANISE:
+    name: "Cultivation Bush: Star Anise"
+    lore:
+      - A small comes off this bush that is so unique
+      - "to anise, you can't even believe."
+  CLT_BUSH_TARRAGON:
+    name: "Cultivation Bush: Tarragon"
+    lore:
+      - "This bush doesn't like to draw too much attention."
+  CLT_BUSH_THYME:
+    name: "Cultivation Bush: Thyme"
+    lore:
+      - "This bush is always running out of... Thyme... *cough*"
+  CLT_BUSH_TURMERIC:
+    name: "Cultivation Bush: Turmeric"
+    lore:
+      - A waft of spice hits your nose just
+      - holding this bush.
+  CLT_BUSH_VANILLA:
+    name: "Cultivation Bush: Vanilla"
+    lore:
+      - This bush grows natively near StarBucks locations.
+  CLT_BUSH_WASABI:
+    name: "Cultivation Bush: Wasabi"
+    lore:
+      - "Another root growing off of a bush?"
+      - Sigh...
+  CLT_BUSH_ARTICHOKE:
+    name: "Cultivation Bush: Artichoke"
+    lore:
+      - By far the best bush to strangle an
+      - artist with. Sigh. Puns be hard.
+  CLT_BUSH_AUBERGINE:
+    name: "Cultivation Bush: Aubergine"
+    lore:
+      - I refuse to use the word eggplant. I just do.
+  CLT_BUSH_ASPARAGUS:
+    name: "Cultivation Bush: Asparagus"
+    lore:
+      - This asparagus bush makes a good
+      - "stalker!"
+  CLT_BUSH_BRUSSELS_SPROUTS:
+    name: "Cultivation Bush: Brussels Sprouts"
+    lore:
+      - A bush that can sometimes produce noxious
+      - gas.
+  CLT_BUSH_CABBAGE:
+    name: "Cultivation Bush: Cabbage"
+    lore:
+      - A bush that comes with a large amount of
+      - emotional cabbage.
+  CLT_BUSH_CAULIFLOWER:
+    name: "Cultivation Bush: Cauliflower"
+    lore:
+      - A bush capable of producing little clouds
+      - of delight.
+  CLT_BUSH_CELERY:
+    name: "Cultivation Bush: Celery"
+    lore:
+      - This bush is redundant.
+      - "Sefi doesn't like Celery."
+  CLT_BUSH_KALE:
+    name: "Cultivation Bush: Kale"
+    lore:
+      - "When you plant this bush, you get the feeling"
+      - that everything is going to be o-kale.
+  CLT_BUSH_SPINACH:
+    name: "Cultivation Bush: Spinach"
+    lore:
+      - "This bush is Popeye's best friend."
+  CLT_BUSH_BLACK_BEANS:
+    name: "Cultivation Bush: Black Beans"
+    lore:
+      - "This bush gently whispers to you:"
+      - You are a great human bean.
+  CLT_BUSH_GREEN_BEANS:
+    name: "Cultivation Bush: Green Beans"
+    lore:
+      - Throw tomato sauce over this bush to make
+      - baked beans.
+  CLT_BUSH_CHICKPEAS:
+    name: "Cultivation Bush: Chickpeas"
+    lore:
+      - A bush made by breeding a chicken with
+      - a pea. SCIENCE.
+  CLT_BUSH_SOY_BEANS:
+    name: "Cultivation Bush: Soy Beans"
+    lore:
+      - This bush is a friendly delight. It makes
+      - me soy happy.
+  CLT_BUSH_PINTO_BEANS:
+    name: "Cultivation Bush: Pinto Beans"
+    lore:
+      - It wont be long until we successfully breed
+      - "a direct-burrito bush, right?"
+  CLT_BUSH_RUNNER_BEANS:
+    name: "Cultivation Bush: Runner Beans"
+    lore:
+      - "This bush has feet o.o?"
+  CLT_BUSH_NETTLES:
+    name: "Cultivation Bush: Nettles"
+    lore:
+      - "Be careful when walking through this bush!"
+  CLT_BUSH_OKRA:
+    name: "Cultivation Bush: Okra"
+    lore:
+      - Voted the number 1 vegetable according to
+      - "Okra Winfrey's Vegetable Club."
+  CLT_BUSH_LEEK:
+    name: "Cultivation Bush: Leek"
+    lore:
+      - Did you know a leek is just an onion that
+      - "wears a corset? True story."
+  CLT_BUSH_SHALLOT:
+    name: "Cultivation Bush: Shallot"
+    lore:
+      - This bush rapidly produces lovely mini onions.
+      - "Luckily you don't need a shallot."
+  CLT_BUSH_JALAPENO:
+    name: "Cultivation Bush: Jalapeno"
+    lore:
+      - Just holding this bush gives you a
+      - "1% change to set ablaze."
+  CLT_BUSH_RADICCHIO:
+    name: "Cultivation Bush: Radicchio"
+    lore:
+      - "Want to sound fancy? But Radicchio into any"
+      - "meal - it's basically like cabbage but"
+      - makes you seem refined.
+  CLT_BUSH_RHUBARB:
+    name: "Cultivation Bush: Rhubarb"
+    lore:
+      - "Did you know rhubarb was a vegetable?"
+      - I thought it was a type of hammer.
+  CLT_BUSH_CELERIAC:
+    name: "Cultivation Bush: Celeriac"
+    lore:
+      - "Yet another root growing off of a bush?"
+      - SefiDumb™
+  CLT_BUSH_PARSNIP:
+    name: "Cultivation Bush: Parsnip"
+    lore:
+      - Just skip the middleman and roast the bush
+      - directly.
+  CLT_BUSH_RUTABAGA:
+    name: "Cultivation Bush: Rutabaga"
+    lore:
+      - Swede. Its a swede.
+  CLT_BUSH_RADDISH:
+    name: "Cultivation Bush: Raddish"
+    lore:
+      - This plant just did a skateboarding trick.
+      - Totally Rad...ish.
+  CLT_BUSH_SWEET_POTATO:
+    name: "Cultivation Bush: Sweet Potato"
+    lore:
+      - This bush is just so sweet. I heard it
+      - "complimenting you while you weren't listening."
+  CLT_BUSH_TURNIP:
+    name: "Cultivation Bush: Turnip"
+    lore:
+      - According to the British Government
+      - this bush will solve all our problems.
+  CLT_BUSH_SWEETCORN:
+    name: "Cultivation Bush: Sweetcorn"
+    lore:
+      - This bush is just crying out to be built into
+      - a maze.
+  CLT_BUSH_COURGETTE:
+    name: "Cultivation Bush: Courgette"
+    lore:
+      - Why does this bush just keep shouting the
+      - "word Zucchini? I guess it must be american?"
+  CLT_BUSH_CUCUMBER:
+    name: "Cultivation Bush: Cucumber"
+    lore:
+      - This bush was designed solely for the purposes
+      - of your lovely summer salads.
+  CLT_BUSH_MARROW:
+    name: "Cultivation Bush: Marrow"
+    lore:
+      - "I'm surprised this bush can hold it's"
+      - own weight.
+  CLT_BUSH_AVOCADO:
+    name: "Cultivation Bush: Avocado"
+    lore:
+      - This bush has been bred specifically to not
+      - use too much water.
+  CLT_BUSH_GREEN_ONION:
+    name: "Cultivation Bush: Green Onion"
+    lore:
+      - Also known as Scallions.
+      - Green Onions generally have a
+      - milder taste than most onions.
+  CLT_BUSH_PEPPER:
+    name: "Cultivation Bush: Black Pepper"
+    lore:
+      - Black Pepper was an important part of the
+      - spice trade between India and Europe
+      - as early as Greek and Roman times.
+  CLT_PLANT_DARKNESS:
+    name: "Primal Plant: Darkness"
+    lore:
+      - A plant that seethes in unbridled
+      - rage.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_LIGHT:
+    name: "Primal Plant: Light"
+    lore:
+      - A plant that exudes an aura
+      - of pure love.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_EARTH:
+    name: "Primal Plant: Earth"
+    lore:
+      - A plant that enriches the world
+      - surrounding it.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_WATER:
+    name: "Primal Plant: Water"
+    lore:
+      - A plant that nurtures and provides
+      - life to the surrounding area.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_FIRE:
+    name: "Primal Plant: Fire"
+    lore:
+      - A plant that both provides the
+      - sources of destruction as well as
+      - rebirth.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_AIR:
+    name: "Primal Plant: Air"
+    lore:
+      - A plant that quietly hums with
+      - the melody of the surrounding nature.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_POWER:
+    name: "Primal Plant: Power"
+    lore:
+      - A plant that positively exudes power.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_WEALTH:
+    name: "Primal Plant: Wealth"
+    lore:
+      - A plant that just screams exuberant wealth.
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_SPECTRUM:
+    name: "Primal Plant: Spectrum"
+    lore:
+      - "A plant that slightly shifts it's color."
+      - ""
+      - Primal plants dont produce items
+      - and are just for breeding.
+  CLT_PLANT_DIRT:
+    name: "Cultivation Plant: Dirt"
+    lore:
+      - Dirty on the surface but holding the
+      - building blocks for life itself.
+  CLT_PLANT_GRASS:
+    name: "Cultivation Plant: Grass"
+    lore:
+      - The burgeoning life bound fourth
+      - from the ground.
+  CLT_PLANT_FLOWER:
+    name: "Cultivation Plant: Flowering"
+    lore:
+      - A beautiful cornucopia presented well.
+  CLT_PLANT_VINE:
+    name: "Cultivation Plant: Vine"
+    lore:
+      - A plant that instantly tangles itself
+      - up.
+  CLT_PLANT_SAND:
+    name: "Cultivation Plant: Sand"
+    lore:
+      - This plant can sometimes crumble apart
+      - at a single touch.
+  CLT_PLANT_RED_SAND:
+    name: "Cultivation Plant: Red Sand"
+    lore:
+      - This plant can sometimes crumble apart
+      - at a single touch - but... red-er.
+  CLT_PLANT_MOSS:
+    name: "Cultivation Plant: Moss"
+    lore:
+      - This plant tends to spread uncontrollably.
+  CLT_PLANT_SAPLING:
+    name: "Cultivation Plant: Sapling"
+    lore:
+      - "This plant doesn't even make sense..."
+  CLT_PLANT_MUSHROOM:
+    name: "Cultivation Plant: Mushroom"
+    lore:
+      - "Yup, a plant that makes mushrooms."
+      - Everything is totally normal over here.
+  CLT_PLANT_WITHER_ROSE:
+    name: "Cultivation Plant: Wither Rose"
+    lore:
+      - "This plant, somehow, pulsates a harmful"
+      - aura around itself.
+  CLT_PLANT_DARK_FLORA:
+    name: "Cultivation Plant: Dark Flora"
+    lore:
+      - A silent evil sits within this simple seed.
+  CLT_PLANT_GLOWING_VINE:
+    name: "Cultivation Plant: Glowing Vine"
+    lore:
+      - A faint light emits from within this seed.
+  CLT_PLANT_DIM_LIT:
+    name: "Cultivation Plant: Dim Lit"
+    lore:
+      - A very dim light emits from within this seed.
+  CLT_PLANT_COW:
+    name: "Cultivation Plant: Cow"
+    lore:
+      - If you hold this seed up to your ear
+      - "and listen very carefully, you can hear"
+      - an occasional mooing.
+  CLT_PLANT_CHICKEN:
+    name: "Cultivation Plant: Chicken"
+    lore:
+      - Rumour says that if you hold this
+      - seed above your head and jump from a
+      - "high place, you will glide rather than"
+      - fall.
+  CLT_PLANT_FISH:
+    name: "Cultivation Plant: Fish"
+    lore:
+      - A ripe smell emanates from this seed.
+  CLT_PLANT_TURTLE:
+    name: "Cultivation Plant: Turtle"
+    lore:
+      - A seed surrounded by a rock hard shell.
+  CLT_PLANT_VILLAGER:
+    name: "Cultivation Plant: Villager"
+    lore:
+      - "Yup, we condensed the essence of a villager"
+      - into a plant. Apparently it hurt a lot.
+  CLT_PLANT_RABBIT:
+    name: "Cultivation Plant: Rabbit"
+    lore:
+      - Bugs would be proud.
+  CLT_PLANT_SHEEP:
+    name: "Cultivation Plant: Sheep"
+    lore:
+      - A plant with a coarse woolly texture.
+  CLT_PLANT_PIG:
+    name: "Cultivation Plant: Pig"
+    lore:
+      - A plant that snorts randomly.
+  CLT_PLANT_BEE:
+    name: "Cultivation Plant: Bee"
+    lore:
+      - "A plant with a very small, delicate, set of wings."
+  CLT_PLANT_SQUID:
+    name: "Cultivation Plant: Squid"
+    lore:
+      - "Be careful, just touching this plant"
+      - has the chance to explode ink all over
+      - the place.
+  CLT_PLANT_GLOW_SQUID:
+    name: "Cultivation Plant: Glow Squid"
+    lore:
+      - A glittering plant with a faint glow.
+  CLT_PLANT_FROG:
+    name: "Cultivation Plant: Frog"
+    lore:
+      - "Ribbit!"
+  CLT_PLANT_GOAT:
+    name: "Cultivation Plant: Goat"
+    lore:
+      - A randomly violent plant that loves
+      - to jump around.
+  CLT_PLANT_RAINBOW:
+    name: "Cultivation Plant: Rainbow"
+    lore:
+      - There may or may not be a pot of gold
+      - at the end of this plant.
+  CLT_PLANT_WAXY:
+    name: "Cultivation Plant: Waxy"
+    lore:
+      - The sap from this plant forms into
+      - perfect candle shaped wax.
+  CLT_PLANT_WOOLLY:
+    name: "Cultivation Plant: Woolly"
+    lore:
+      - "A woolly plant, from root to petals!."
+  CLT_PLANT_TERRA:
+    name: "Cultivation Plant: Terra"
+    lore:
+      - A hard earthy plant that cracks under pressure.
+  CLT_PLANT_GLAZED:
+    name: "Cultivation Plant: Glazed"
+    lore:
+      - A plant that grows with an intricate design.
+  CLT_PLANT_DUSTY:
+    name: "Cultivation Plant: Dusty"
+    lore:
+      - "This plant needs special care, the slightest"
+      - strong breeze can be enough to make it fall
+      - apart.
+  CLT_PLANT_CONCRETE:
+    name: "Cultivation Plant: Concrete"
+    lore:
+      - This plant struggle to grow as it
+      - hardens so quickly.
+  CLT_PLANT_STAINED:
+    name: "Cultivation Plant: Stained"
+    lore:
+      - This plant splits light into a veritable
+      - spectrum to nearby objects.
+  CLT_PLANT_COBBLESTONE:
+    name: "Cultivation Plant: Cobblestone"
+    lore:
+      - This plant is hard as a rock.
+  CLT_PLANT_GRAVEL:
+    name: "Cultivation Plant: Gravel"
+    lore:
+      - "This plant really doesn't know how"
+      - to keep itself together.
+  CLT_PLANT_CLAY:
+    name: "Cultivation Plant: Clay"
+    lore:
+      - This plant can be formed and reshaped freely.
+      - "That doesn't mean it's a good idea to do so,"
+      - "though!"
+  CLT_PLANT_IGNEOUS:
+    name: "Cultivation Plant: Igneous"
+    lore:
+      - This plant has been formed by heat and
+      - "pressure. Don't look at me like that! All"
+      - these plant descriptions make total sense.
+  CLT_PLANT_DEEPSLATE:
+    name: "Cultivation Plant: Deepslate"
+    lore:
+      - "Deep, slatey, <insert lore here>."
+  CLT_PLANT_REINFORCED:
+    name: "Cultivation Plant: Reinforced"
+    lore:
+      - A plant that is able to hold itself up
+      - through anything.
+  CLT_PLANT_BLACKSTONE:
+    name: "Cultivation Plant: Blackstone"
+    lore:
+      - A plant that has been known to absorb light.
+  CLT_PLANT_NETHERRACK:
+    name: "Cultivation Plant: Netherrack"
+    lore:
+      - A tough hardy plant able to survive
+      - in most locales.
+  CLT_PLANT_DARK_GRASS:
+    name: "Cultivation Plant: Dark Grass"
+    lore:
+      - "A plant that has really lost it's"
+      - identity.
+  CLT_PLANT_MAGMA:
+    name: "Cultivation Plant: Magma"
+    lore:
+      - "A plant that's so hot it burns it's"
+      - surroundings.
+  CLT_PLANT_SOUL:
+    name: "Cultivation Plant: Soul"
+    lore:
+      - A plant that can be heard screaming
+      - when its quiet.
+  CLT_PLANT_BASALT:
+    name: "Cultivation Plant: Basalt"
+    lore:
+      - A very boring and dull plant.
+  CLT_PLANT_GLASS:
+    name: "Cultivation Plant: Glass"
+    lore:
+      - "At the right angle, you could"
+      - swear you can see through this plant.
+  CLT_PLANT_MUD:
+    name: "Cultivation Plant: Mud"
+    lore:
+      - A plant that is nearly as dirty as
+      - the ground it comes from.
+  CLT_PLANT_END_STONE:
+    name: "Cultivation Plant: End Stone"
+    lore:
+      - A plant that hums with the void.
+  CLT_PLANT_PURPUR:
+    name: "Cultivation Plant: Purpur"
+    lore:
+      - "An odd plant, seems far lighter"
+      - than most.
+  CLT_PLANT_COAL:
+    name: "Cultivation Plant: Coal"
+    lore:
+      - A plant that holds such potential.
+  CLT_PLANT_RAW_IRON:
+    name: "Cultivation Plant: Raw Iron"
+    lore:
+      - A sturdy plant able to withstand most
+      - environments.
+  CLT_PLANT_RAW_COPPER:
+    name: "Cultivation Plant: Raw Copper"
+    lore:
+      - "If left alone, this plant sometimes"
+      - attracts lightning.
+  CLT_PLANT_RAW_GOLD:
+    name: "Cultivation Plant: Raw Gold"
+    lore:
+      - This plant is commonly stolen by piglins
+      - if nearby.
+  CLT_PLANT_REDSTONE:
+    name: "Cultivation Plant: Redstone"
+    lore:
+      - A plant brimming with power throughout.
+  CLT_PLANT_LAPIS:
+    name: "Cultivation Plant: Lapis"
+    lore:
+      - A plant with a faint magical aura.
+  CLT_PLANT_DIAMOND:
+    name: "Cultivation Plant: Diamond"
+    lore:
+      - A plant that just speaks of riches.
+  CLT_PLANT_EMERALD:
+    name: "Cultivation Plant: Emerald"
+    lore:
+      - Owners of this plant have to jump
+      - through hoops just to be able to afford it.
+  CLT_PLANT_NETHER_QUARTZ:
+    name: "Cultivation Plant: Nether Quartz"
+    lore:
+      - This plant has thorns so sharp that
+      - "it's hard to work with."
+  CLT_PLANT_SCRAPPY:
+    name: "Cultivation Plant: Scrappy"
+    lore:
+      - This plant really is the pinnacle of
+      - horticulturalism.
+  CLT_PLANT_AMETHYST:
+    name: "Cultivation Plant: Amethyst"
+    lore:
+      - "This plant loves to flourish in deep, dark"
+      - locales.
+  CLT_PLANT_ECHO:
+    name: "Cultivation Plant: Echo"
+    lore:
+      - This plant always knows how to find
+      - its way home.
+  CLT_PLANT_SKELETON:
+    name: "Cultivation Plant: Skeleton"
+    lore:
+      - A plant that rattles as it sways.
+  CLT_PLANT_SPIDER:
+    name: "Cultivation Plant: Spider"
+    lore:
+      - "Kill it, kill it NAO!"
+  CLT_PLANT_CREEPER:
+    name: "Cultivation Plant: Creeper"
+    lore:
+      - Tsssssssssttt...
+  CLT_PLANT_ZOMBIE:
+    name: "Cultivation Plant: Zombie"
+    lore:
+      - This plant is dripping... something...
+  CLT_PLANT_DROWNED:
+    name: "Cultivation Plant: Drowned"
+    lore:
+      - "A Plant that is dripping wet, all"
+      - the time.
+  CLT_PLANT_GUARDIAN:
+    name: "Cultivation Plant: Guardian"
+    lore:
+      - "When touched, this plant releases"
+      - spines.
+  CLT_PLANT_ELDER_GUARDIAN:
+    name: "Cultivation Plant: Elder Guardian"
+    lore:
+      - Being near this plants makes people
+      - sluggish.
+  CLT_PLANT_GHAST:
+    name: "Cultivation Plant: Ghast"
+    lore:
+      - A plant that has been known to
+      - randomly shoot fire balls.
+  CLT_PLANT_SLIME:
+    name: "Cultivation Plant: Slime"
+    lore:
+      - "Why is it so sticky?"
+  CLT_PLANT_MAGMA_CUBE:
+    name: "Cultivation Plant: Magma Cube"
+    lore:
+      - "When not being watched, this plant"
+      - likes to bounce up and down.
+  CLT_PLANT_BLAZE:
+    name: "Cultivation Plant: Blaze"
+    lore:
+      - A plant that is scorched around the edges.
+  CLT_PLANT_WITHER_SKELETON:
+    name: "Cultivation Plant: Wither Skeleton"
+    lore:
+      - A plant known to be elusive and hardy.
+  CLT_PLANT_WITHER:
+    name: "Cultivation Plant: Wither"
+    lore:
+      - A deadly plant that must be treated
+      - with care.
+  CLT_PLANT_PHANTOM:
+    name: "Cultivation Plant: Phantom"
+    lore:
+      - A plant with lofty leaves.
+  CLT_PLANT_SHULKER:
+    name: "Cultivation Plant: Shulker"
+    lore:
+      - A plant that often levitates off
+      - of the ground.
+  CLT_PLANT_ENDERMAN:
+    name: "Cultivation Plant: Enderman"
+    lore:
+      - "If not treated carefully, this plant"
+      - "may teleport randomly!"
+  CLT_PLANT_ENDER_DRAGON:
+    name: "Cultivation Plant: Ender Dragon"
+    lore:
+      - A real boss of a plant.
+  CLT_PLANT_WITCH:
+    name: "Cultivation Plant: Witch"
+    lore:
+      - "A plant that sounds like it's softly"
+      - muttering spells.
+  CLT_CROP_STICKS:
+    name: Crop Sticks
+    lore: []
+  CLT_HARVESTING_TOOL_SIMPLE:
+    name: Simple Harvesting Tool
+    lore: []
+  CLT_TRIMMING_TOOL_SIMPLE:
+    name: Simple Trimming Tool
+    lore: []
+  CLT_PLANT_ANALYSER:
+    name: Plant Analyser
+    lore: []
+  CLT_RECIPE_UNLOCK:
+    name: Cultivation Knowledge Script
+    lore: []
+  CLT_SEED_PACK:
+    name: Seed Pack
+    lore: []
+  CLT_GARDEN_CLOCHE:
+    name: Garden Cloche
+    lore: []
+  CLT_COUNTER_NOTHING:
+    name: "Kitchen Counter: Empty"
+    lore: []
+  CLT_COUNTER_CHOPPING:
+    name: "Kitchen Counter: Chopping Board"
+    lore: []
+  CLT_COUNTER_SLICING:
+    name: "Kitchen Counter: Slicing Board"
+    lore: []
+  CLT_COUNTER_MASHER:
+    name: "Kitchen Counter: Mashing Bowl"
+    lore: []
+  CLT_COUNTER_GRINDER:
+    name: "Kitchen Counter: Grinding Pestle and Mortar"
+    lore: []
+  CLT_COUNTER_BLENDER:
+    name: "Kitchen Counter: Blender"
+    lore: []
+  CLT_COUNTER_OVEN:
+    name: "Kitchen Counter: Oven"
+    lore: []
+  CLT_COUNTER_FRYING:
+    name: "Kitchen Counter: Frying Pan"
+    lore: []
+  CLT_COUNTER_BOILING:
+    name: "Kitchen Counter: Boiling Pot"
+    lore: []
+  CLT_COUNTER_GRILL:
+    name: "Kitchen Counter: Grill"
+    lore: []
+  CLT_COUNTER_FINISHING:
+    name: "Kitchen Counter: Finishing"
+    lore: []
+  CLT_BANANA:
+    name: Banana
+    lore: []
+  CLT_LEMON:
+    name: Lemon
+    lore: []
+  CLT_ORANGE:
+    name: Orange
+    lore: []
+  CLT_GREEN_APPLE:
+    name: Green Apple
+    lore: []
+  CLT_PINEAPPLE:
+    name: Pineapple
+    lore: []
+  CLT_MANGO:
+    name: Mango
+    lore: []
+  CLT_PEACH:
+    name: Peach
+    lore: []
+  CLT_APRICOT:
+    name: Apricot
+    lore: []
+  CLT_PEAR:
+    name: Pear
+    lore: []
+  CLT_CHERRY:
+    name: Cherry
+    lore: []
+  CLT_KIWI:
+    name: Kiwi
+    lore: []
+  CLT_LIME:
+    name: Lime
+    lore: []
+  CLT_CHESTNUT:
+    name: Chestnut
+    lore: []
+  CLT_HAZELNUT:
+    name: Hazelnut
+    lore: []
+  CLT_PECAN:
+    name: Pecan
+    lore: []
+  CLT_GRAPE:
+    name: Grape
+    lore: []
+  CLT_PEANUT:
+    name: Peanut
+    lore: []
+  CLT_STRAWBERRY:
+    name: Strawberry
+    lore: []
+  CLT_RICE:
+    name: Rice
+    lore: []
+  CLT_GARLIC:
+    name: Garlic
+    lore: []
+  CLT_CAYENNE_PEPPER:
+    name: Cayenne Pepper
+    lore: []
+  CLT_TOMATO:
+    name: Tomato
+    lore: []
+  CLT_BELL_PEPPER:
+    name: Bell Pepper
+    lore: []
+  CLT_ONION:
+    name: Onion
+    lore: []
+  CLT_PEA:
+    name: Peas
+    lore: []
+  CLT_RAPESEED:
+    name: Rapeseed
+    lore: []
+  CLT_LETTUCE:
+    name: Lettuce
+    lore: []
+  CLT_MUSTARD_SEEDS:
+    name: Mustard Seeds
+    lore: []
+  CLT_BROCCOLI:
+    name: Broccoli
+    lore: []
+  CLT_CINNAMON:
+    name: Cinnamon
+    lore: []
+  CLT_BASIL:
+    name: Basil
+    lore: []
+  CLT_BAY_LEAF:
+    name: Bay Leaf
+    lore: []
+  CLT_CILANTRO:
+    name: Cilantro
+    lore: []
+  CLT_CHICORY:
+    name: Chicory
+    lore: []
+  CLT_CHIVES:
+    name: Chives
+    lore: []
+  CLT_CLOVE:
+    name: Clove
+    lore: []
+  CLT_CUMIN:
+    name: Cumin
+    lore: []
+  CLT_CHILLY_PEPPER:
+    name: Chilly Pepper
+    lore: []
+  CLT_CURRY_LEAF:
+    name: Curry Leaf
+    lore: []
+  CLT_DILL:
+    name: Dill
+    lore: []
+  CLT_FENNEL:
+    name: Fennel
+    lore: []
+  CLT_GINGER:
+    name: Ginger
+    lore: []
+  CLT_HORSERADISH:
+    name: Horseradish
+    lore: []
+  CLT_JASMINE:
+    name: Jasmine
+    lore: []
+  CLT_JUNIPER_BERRY:
+    name: Juniper Berries
+    lore: []
+  CLT_KAFFIR_LIME:
+    name: Kaffir Lime Leaf
+    lore: []
+  CLT_LAVENDER:
+    name: Lavender
+    lore: []
+  CLT_LICORICE:
+    name: Licorice
+    lore: []
+  CLT_MACE:
+    name: Mace
+    lore: []
+  CLT_MARJORAM:
+    name: Marjoram
+    lore: []
+  CLT_MINT:
+    name: Mint
+    lore: []
+  CLT_OREGANO:
+    name: Oregano
+    lore: []
+  CLT_PARSLEY:
+    name: Parsley
+    lore: []
+  CLT_ROSEMARY:
+    name: Rosemary
+    lore: []
+  CLT_SASSAFRAS:
+    name: Sassafras
+    lore: []
+  CLT_SHISO:
+    name: Shiso
+    lore: []
+  CLT_STAR_ANISE:
+    name: Star Anise
+    lore: []
+  CLT_TARRAGON:
+    name: Tarragon
+    lore: []
+  CLT_THYME:
+    name: Thyme
+    lore: []
+  CLT_TURMERIC:
+    name: Turmeric
+    lore: []
+  CLT_VANILLA:
+    name: Vanilla
+    lore: []
+  CLT_WASABI:
+    name: Wasabi
+    lore: []
+  CLT_ARTICHOKE:
+    name: Artichoke
+    lore: []
+  CLT_AUBERGINE:
+    name: Aubergine
+    lore: []
+  CLT_ASPARAGUS:
+    name: Asparagus
+    lore: []
+  CLT_BRUSSELS_SPROUTS:
+    name: Brussels Sprouts
+    lore: []
+  CLT_CABBAGE:
+    name: Cabbage
+    lore: []
+  CLT_CAULIFLOWER:
+    name: Cauliflower
+    lore: []
+  CLT_CELERY:
+    name: Celery
+    lore: []
+  CLT_KALE:
+    name: Kale
+    lore: []
+  CLT_SPINACH:
+    name: Spinach
+    lore: []
+  CLT_BLACK_BEANS:
+    name: Black Beans
+    lore: []
+  CLT_GREEN_BEANS:
+    name: Green Beans
+    lore: []
+  CLT_CHICKPEAS:
+    name: Chickpeas
+    lore: []
+  CLT_SOY_BEANS:
+    name: Soy Beans
+    lore: []
+  CLT_PINTO_BEANS:
+    name: Pinto Beans
+    lore: []
+  CLT_RUNNER_BEANS:
+    name: Runner Beans
+    lore: []
+  CLT_NETTLES:
+    name: Nettles
+    lore: []
+  CLT_OKRA:
+    name: Okra
+    lore: []
+  CLT_LEEK:
+    name: Leek
+    lore: []
+  CLT_SHALLOT:
+    name: Shallot
+    lore: []
+  CLT_JALAPENO:
+    name: Jalapeno
+    lore: []
+  CLT_RADICCHIO:
+    name: Radicchio
+    lore: []
+  CLT_RHUBARB:
+    name: Rhubarb
+    lore: []
+  CLT_CELERIAC:
+    name: Celeriac
+    lore: []
+  CLT_PARSNIP:
+    name: Parsnip
+    lore: []
+  CLT_RUTABAGA:
+    name: Rutabaga
+    lore: []
+  CLT_RADDISH:
+    name: Raddish
+    lore: []
+  CLT_SWEET_POTATO:
+    name: Sweet Potato
+    lore: []
+  CLT_TURNIP:
+    name: Turnip
+    lore: []
+  CLT_SWEETCORN:
+    name: Sweetcorn
+    lore: []
+  CLT_COURGETTE:
+    name: Courgette
+    lore: []
+  CLT_CUCUMBER:
+    name: Cucumber
+    lore: []
+  CLT_MARROW:
+    name: Marrow
+    lore: []
+  CLT_AVOCADO:
+    name: Avocado
+    lore: []
+  CLT_GREEN_ONION:
+    name: Green Onion
+    lore: []
+  CLT_PEPPER:
+    name: Black Pepper
+    lore: []
+  CLT_PEANUT_BUTTER:
+    name: Peanut Butter
+    lore: []
+  CLT_GRAPE_JELLY:
+    name: Grape Jelly
+    lore: []
+  CLT_STRAWBERRY_JELLY:
+    name: Strawberry Jelly
+    lore: []
+  CLT_OIL:
+    name: Oil
+    lore: []
+  CLT_MAYONNAISE:
+    name: Mayonnaise
+    lore: []
+  CLT_EGG_SALAD:
+    name: Egg Salad
+    lore: []
+  CLT_PIE_CRUST:
+    name: Pie Crust
+    lore: []
+  CLT_PASTA:
+    name: Pasta
+    lore: []
+  CLT_BISCUIT_DOUGH:
+    name: Biscuit Dough
+    lore: []
+  CLT_BISCUIT_BASE:
+    name: Biscuit Base
+    lore: []
+  CLT_MEATBALLS:
+    name: Meatballs
+    lore: []
+  CLT_PEPPERONI:
+    name: Pepperoni
+    lore: []
+  CLT_DOUGH:
+    name: Dough
+    lore: []
+  CLT_CREAM_CHEESE:
+    name: Cream Cheese
+    lore: []
+  CLT_KETCHUP:
+    name: Ketchup
+    lore: []
+  CLT_MUSTARD:
+    name: Mustard
+    lore: []
+  CLT_TORTILLAS:
+    name: Tortillas
+    lore: []
+  CLT_PICO_DE_GALLO:
+    name: Pico de Gallo
+    lore: []
+  CLT_COOKED_BURGER_PATTY:
+    name: Cooked Burger Patty
+    lore: []
+  CLT_PEANUT_BUTTER_JELLY_SANDWICH:
+    name: Peanut Butter Jelly Sandwich
+    lore: []
+  CLT_EGG_SALAD_SANDWICH:
+    name: Egg Salad Sandwich
+    lore: []
+  CLT_BACON_SANDWICH:
+    name: Bacon Sandwich
+    lore: []
+  CLT_SALMON_NIGIRI:
+    name: Salmon Nigiri
+    lore: []
+  CLT_CAJUN_GARLIC_BUTTER_COD:
+    name: Cajun Garlic Butter Cod
+    lore: []
+  CLT_SHAKSHUKA:
+    name: Shakshuka
+    lore: []
+  CLT_FUGU:
+    name: Fugu
+    lore: []
+  CLT_SHEPHERDS_PIE:
+    name: Shepherds Pie
+    lore: []
+  CLT_CHICKEN_POT_PIE:
+    name: Chicken Pot Pie
+    lore: []
+  CLT_CHICKEN_PASTA_BAKE:
+    name: Chicken Pasta Bake
+    lore: []
+  CLT_CHICKEN_ALFREDO_MAC_AND_CHEESE:
+    name: Chicken Alfredo Mac and Cheese
+    lore: []
+  CLT_KEY_LIME_PIE:
+    name: Key Lime Pie
+    lore: []
+  CLT_FRUIT_SALAD:
+    name: Fruit Salad
+    lore: []
+  CLT_CAESAR_SALAD:
+    name: Caesar Salad
+    lore: []
+  CLT_BISCUIT:
+    name: Biscuit
+    lore: []
+  CLT_COMPRESSED_BISCUIT:
+    name: Compressed Biscuit
+    lore: []
+  CLT_LEMON_DROP:
+    name: Lemon Drop
+    lore: []
+  CLT_GRILLED_SALMON_SALAD:
+    name: Grilled Salmon Salad
+    lore: []
+  CLT_WITHER_ROSE_SALAD:
+    name: Wither Rose Salad
+    lore: []
+  CLT_ORANGE_JUICE:
+    name: Orange Juice
+    lore: []
+  CLT_LASAGNA:
+    name: Lasagna
+    lore: []
+  CLT_SPAGHETTI:
+    name: Spaghetti
+    lore: []
+  CLT_SPAGHETTI_AND_MEATBALLS:
+    name: Spaghetti and Meatballs
+    lore: []
+  CLT_PIZZA_CHEESE:
+    name: Cheese Pizza
+    lore: []
+  CLT_PIZZA_MUSHROOM:
+    name: Mushroom Pizza
+    lore: []
+  CLT_PIZZA_PEPPERONI:
+    name: Pepperoni Pizza
+    lore: []
+  CLT_CHEESY_SCALLOPED_COURGETTE:
+    name: Cheesy Scalloped Courgette
+    lore: []
+  CLT_PECAN_PIE:
+    name: Pecan Pie
+    lore: []
+  CLT_GARLIC_BUTTER_MUSHROOMS:
+    name: Garlic Butter Mushrooms
+    lore: []
+  CLT_RAMEN_BEEF:
+    name: Ramen (Beef)
+    lore: []
+  CLT_RAMEN_CHICKEN:
+    name: Ramen (Chicken)
+    lore: []
+  CLT_RAMEN_SEAFOOD:
+    name: Ramen (Seafood)
+    lore: []
+  CLT_RAMEN_BEEF_HEARTY:
+    name: Ramen (Beef) (Hearty)
+    lore: []
+  CLT_RAMEN_CHICKEN_HEARTY:
+    name: Ramen (Chicken) (Hearty)
+    lore: []
+  CLT_RAMEN_SEAFOOD_HEARTY:
+    name: Ramen (Seafood) (Hearty)
+    lore: []
+  CLT_BAGEL:
+    name: Bagel
+    lore: []
+  CLT_BAGEL_BITE:
+    name: Bagel Bite
+    lore: []
+  CLT_BAGEL_CREAM_CHEESE:
+    name: Bagel (Cream Cheese)
+    lore: []
+  CLT_MEATLOAF:
+    name: Meatloaf
+    lore: []
+  CLT_SAUSAGE:
+    name: Sausage
+    lore: []
+  CLT_SOYLENT:
+    name: Soylent
+    lore: []
+  CLT_TATER_TOTS:
+    name: Tater Tots
+    lore: []
+  CLT_SWEET_BEEHIVE:
+    name: Sweet Beehive
+    lore: []
+  CLT_TAQUITO:
+    name: Taquito
+    lore: []
+  CLT_BOWL_OF_STEVE:
+    name: "Bowl of... Steve?"
+    lore: []
+  CLT_CHEESE_BURGER:
+    name: Burger
+    lore: []
+  CLT_CINNAMON_ROLL:
+    name: Cinnamon Roll
+    lore: []
+  CLT_BLUE_CANDY:
+    name: Candy (Blue)
+    lore: []
+  CLT_SOFT_BOILED_EGG:
+    name: Soft Boiled Egg
+    lore: []
+  CLT_SUGARED_SKULL:
+    name: Sugared Skull
+    lore: []

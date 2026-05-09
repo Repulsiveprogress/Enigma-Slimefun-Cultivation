@@ -117,4 +117,10 @@ public class ConfigManager {
         return Cultivation.getInstance().getConfig().getBoolean("debug-messages");
     }
 
+    @Nonnull
+    public String getLanguage() {
+        String lang = Cultivation.getInstance().getConfig().getString("language", "en");
+        return lang == null || lang.isBlank() ? "en" : lang;
+    }
+
 }

@@ -11,6 +11,7 @@ import dev.sefiraat.cultivation.implementation.slimefun.items.Tools;
 import dev.sefiraat.cultivation.implementation.slimefun.items.Trees;
 import dev.sefiraat.cultivation.managers.ConfigManager;
 import dev.sefiraat.cultivation.managers.DispatchManager;
+import dev.sefiraat.cultivation.managers.LanguageManager;
 import dev.sefiraat.cultivation.managers.ListenerManager;
 import dev.sefiraat.cultivation.managers.SupportedPluginManager;
 import dev.sefiraat.cultivation.managers.TaskManager;
@@ -32,6 +33,7 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
     private final String branch;
 
     private ConfigManager configManager;
+    private LanguageManager languageManager;
     private SupportedPluginManager supportedPluginManager;
     private ListenerManager listenerManager;
     private TaskManager taskManager;
@@ -56,6 +58,7 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
 
         saveDefaultConfig();
         this.configManager = new ConfigManager();
+        this.languageManager = new LanguageManager(this.configManager.getLanguage());
         tryUpdate();
 
         this.supportedPluginManager = new SupportedPluginManager();
@@ -133,6 +136,10 @@ public class Cultivation extends JavaPlugin implements SlimefunAddon {
 
     public static ConfigManager getConfigManager() {
         return Cultivation.getInstance().configManager;
+    }
+
+    public static LanguageManager getLanguageManager() {
+        return Cultivation.getInstance().languageManager;
     }
 
     public static SupportedPluginManager getSupportedPluginManager() {
