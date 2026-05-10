@@ -2,7 +2,8 @@
 <img width="500" src="https://user-images.githubusercontent.com/20646323/231161480-7b6bd303-cec9-4555-aa40-5c502aaa031b.png"><br><br>
 </p>
 
-> **EnigmaticMP Fork** — ported to Minecraft 26.1.2 / Paper 26.1.2 / Java 21 with built-in Russian localisation.
+> **EnigmaticMP Fork** - ported to Minecraft 26.1.2 / Paper 26.1.2 / Java 21 with built-in Russian localisation.
+
 > Work on Enigma Slimefun4 New: <https://github.com/Repulsiveprogress/Enigma-Slimefun4-new>
 
 Cultivation is a Slimefun4 addon that adds a plethora of plants, bushes and trees to Minecraft as well as an amazing food selection to be made via a unique, fully featured, kitchen!
